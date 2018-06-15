@@ -1,0 +1,4 @@
+baseURL = "chuckmcandrew.com"
+languageCode = "en-us"
+title = "Chuck McAndrew"
+theme = "beautifulhugo"
