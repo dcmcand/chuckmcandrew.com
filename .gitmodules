@@ -4,3 +4,7 @@
 [submodule "themes/beautifulhugo"]
 	path = themes/beautifulhugo
 	url = https://github.com/halogenica/beautifulhugo.git
+[submodule "public"]
+	path = public
+	url = git@github.com:dcmcand/chuckmcandrew.com-prod.git
+	branch = master
