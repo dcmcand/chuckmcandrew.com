@@ -6,5 +6,5 @@
 	url = https://github.com/halogenica/beautifulhugo.git
 [submodule "public"]
 	path = public
-	url = git@github.com:dcmcand/chuckmcandrew.com-prod.git
+	url = git@github.com:dcmcand/dcmcand.github.io.git
 	branch = master
