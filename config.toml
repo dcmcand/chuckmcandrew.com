@@ -41,7 +41,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [Author]
   name = "Chuck McAndrew"
-  website = "chuckmcandrew.com"
+  website = "https://chuckmcandrew.com"
   email = "chuck.mcandrew@leblibrary.com"
   github = "dcmcand"
 
