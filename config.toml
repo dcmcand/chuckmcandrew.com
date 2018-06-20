@@ -14,7 +14,7 @@ pygmentsCodefencesGuessSyntax = true
 #googleAnalytics = "XXX"
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-#  subtitle = ""
+  subtitle = "I.T. Librarian and Technology Educator"
   #logo = "img/avatar-icon.png"
   logo = "img/logo-small.png"
   #favicon = "favicon.ico"
