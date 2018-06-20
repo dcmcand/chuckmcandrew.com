@@ -17,7 +17,7 @@ pygmentsCodefencesGuessSyntax = true
 #  subtitle = ""
   #logo = "img/avatar-icon.png"
   logo = "img/logo-small.png"
-  favicon = "img/favicon.ico"
+  #favicon = "favicon.ico"
   dateFormat = "January 2, 2006"
   commit = true
   rss = true
@@ -52,15 +52,11 @@ pygmentsCodefencesGuessSyntax = true
 
 [[menu.main]]
     name = "About"
-    url = "page/about/"
+    url = "about/"
     weight = 3
 
 [[menu.main]]
-    name = "Tutorials"
-    url = "tutorial"
+    name = "Classes"
+    url = "class"
     weight = 2
 
-[[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3
