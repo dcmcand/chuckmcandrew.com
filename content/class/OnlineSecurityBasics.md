@@ -9,10 +9,10 @@ This class is designed to teach 10 ways to improve your online security. These s
 
 Class Resources
 
-* [Presentation](https://dcmcand.github.io/Online-security-basics/)
-* [Class Handout](https://dcmcand.github.io/Online-security-basics/handouts/classhandout)
-* [Printable Slides](https://dcmcand.github.io/Online-security-basics/?print-pdf)
-* [Printable Slides with Instructor Notes](https://dcmcand.github.io/Online-security-basics/?print-pdf&showNotes=true)
+* [Presentation](https://chuckmcandrew.com/Online-security-basics/)
+* [Class Handout](https://chuckmcandrew.com/Online-security-basics/handouts/classhandout)
+* [Printable Slides](https://chuckmcandrew.com/Online-security-basics/?print-pdf)
+* [Printable Slides with Instructor Notes](https://chuckmcandrew.com/Online-security-basics/?print-pdf&showNotes=true)
 
 ---
 
