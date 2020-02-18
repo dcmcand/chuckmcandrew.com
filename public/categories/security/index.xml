@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>security on Chuck McAndrew</title>
+    <link>https://chuckmcandrew.com/categories/security/</link>
+    <description>Recent content in security on Chuck McAndrew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
+    <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
+    <lastBuildDate>Thu, 27 Jun 2019 16:47:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://chuckmcandrew.com/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Online Security Basics 2</title>
+      <link>https://chuckmcandrew.com/post/2019/06/27/online-security-basics-2/</link>
+      <pubDate>Thu, 27 Jun 2019 16:47:05 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2019/06/27/online-security-basics-2/</guid>
+      <description>This is part 2 of 10 of a series of relatively short posts that focus on things that everyone should think about to be safe when using computers. This is based on a class that I teach which can be found at https://chuckmcandrew.com/class/onlinesecuritybasics/. Feel free to use the class as is, or fork it on Github and make it your own.
+If you can remember all of your passwords, you are doing it wrong LassPass estimates that 85% of account compromises are because of poor passwords.</description>
+    </item>
+    
+    <item>
+      <title>Online Security Basics Part 1</title>
+      <link>https://chuckmcandrew.com/post/2019/06/05/online-security-basics-part-1/</link>
+      <pubDate>Wed, 05 Jun 2019 13:54:16 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2019/06/05/online-security-basics-part-1/</guid>
+      <description>This is part 1 of 10 of a series of relatively short posts that focus on things that everyone should think about to be safe when using computers. This is based on a class that I teach which can be found at https://chuckmcandrew.com/class/onlinesecuritybasics/. Feel free to use the class as is, or fork it on Github and make it your own.
+Do your updates When we think about hackers compromising computer systems, we often imagine them having secret exploits that no one else knows about.</description>
+    </item>
+    
+    <item>
+      <title>Using Let’s Encrypt to secure local services</title>
+      <link>https://chuckmcandrew.com/post/2018/08/06/using-lets-encrypt-to-secure-local-services/</link>
+      <pubDate>Mon, 06 Aug 2018 23:05:12 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2018/08/06/using-lets-encrypt-to-secure-local-services/</guid>
+      <description>Hopefully, at this point everyone has secured all their public facing services with HTTPS. Let&amp;rsquo;s Encrypt makes this quick and easy to do (not to mention free!). What about local services that are only available on your lan though? This is tougher because normal verification methods don&amp;rsquo;t work, yet it is still important. Part of a defense in depth strategy is to always assume you are in a hostile environment, and with all the router vulnerabilities, Universal Plug and Play problems, and issues such as DNS rebinding attacks, it is not a good assumption that there are no malicious actors on your lan.</description>
+    </item>
+    
+    <item>
+      <title>Protecting your online privacy</title>
+      <link>https://chuckmcandrew.com/post/2017/11/22/protecting-your-online-privacy/</link>
+      <pubDate>Wed, 22 Nov 2017 15:49:10 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/11/22/protecting-your-online-privacy/</guid>
+      <description>Which steps you take to protect yourself online depend entirely on your personal threat model. I have tried to select things that are broadly applicable and are easy to implement. This is a topic where you can absolutely deep dive, but remaining totally anonymous online is very difficult (if not impossible) and takes a lot of effort and discipline. Fortunately, the vast majority of people don’t require that level of protection.</description>
+    </item>
+    
+    <item>
+      <title>Online Self Defense</title>
+      <link>https://chuckmcandrew.com/post/2017/11/17/online-self-defense/</link>
+      <pubDate>Fri, 17 Nov 2017 19:32:06 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/11/17/online-self-defense/</guid>
+      <description>Inspired by the Electronic Frontier Foundation&amp;#8217;s Surveillance Self Defense, I have put together a five part course covering privacy and security for people ranging from basic to advanced. Here are my notes and slides from the first of the classes. This covers basic topics that every computer user should be familiar with.
+Everything shared on this site is made available under a creative commons share alike license so please feel free to use and modify this for your own library.</description>
+    </item>
+    
+    <item>
+      <title>How large is your attack surface?</title>
+      <link>https://chuckmcandrew.com/post/2017/08/25/how-large-is-your-attack-surface/</link>
+      <pubDate>Fri, 25 Aug 2017 13:47:21 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/08/25/how-large-is-your-attack-surface/</guid>
+      <description>Attack surface is a term used in computer security to describe your vulnerabilities. It is simply the ways that you can be attacked. A larger attack surface means more ways to attack you. A smaller attack surface means less ways to attack you. One of the most effective ways we have of increasing our security is to shrink our attack surface. There are other important things we need to do, such as doing security updates and selecting trustworthy software, but that largely depends on things that are out of our control.</description>
+    </item>
+    
+    <item>
+      <title>haveibeenpwned now checks passwords too</title>
+      <link>https://chuckmcandrew.com/post/2017/08/21/haveibeenpwned-now-checks-passwords-too/</link>
+      <pubDate>Mon, 21 Aug 2017 23:39:24 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/08/21/haveibeenpwned-now-checks-passwords-too/</guid>
+      <description>There is a great tool called haveibeenpwned put out by Troy Hunt. You can enter an email address or username into this website, and it will tell you if it has been involved in a data breach. This is great so that you can quickly change your password for a compromised account. Troy now has a service that will check passwords against data breaches as well. If you don&amp;#8217;t want to put your password into a random third-party website, you can put in a sha1 hash of your password instead or you can download the entire 5.</description>
+    </item>
+    
+    <item>
+      <title>Filing bug reports</title>
+      <link>https://chuckmcandrew.com/post/2017/07/14/filing-bug-reports/</link>
+      <pubDate>Fri, 14 Jul 2017 20:30:30 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/07/14/filing-bug-reports/</guid>
+      <description>We have all had the frustration of software not working the way we want it to. Maybe it is an annoying feature, or something not working the way it is supposed to. We all complain about software because it sometimes makes our jobs more difficult. Nothing wrong with a little venting. However, we should also be letting the software makers know about these problems. Just about any software product out there should have some kind of bug report option.</description>
+    </item>
+    
+    <item>
+      <title>Staying Current</title>
+      <link>https://chuckmcandrew.com/post/2017/06/20/staying-current/</link>
+      <pubDate>Tue, 20 Jun 2017 15:37:44 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/06/20/staying-current/</guid>
+      <description>At a recent training that Mark and I did for the NHLA Paralibrarians section, we were ask a question about how to stay current on computer security topics. This can be quite a challenge, especially for busy librarians with a lot of other things to keep track of. The easy answer is that you do it the same way that you keep current on anything else. However, I thought it might be useful to share some of the specific ways that I keep on top of things.</description>
+    </item>
+    
+    <item>
+      <title>Passwords</title>
+      <link>https://chuckmcandrew.com/post/2017/06/02/passwords/</link>
+      <pubDate>Fri, 02 Jun 2017 12:00:55 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/06/02/passwords/</guid>
+      <description>The National Institute of Standards and Technology is a US Government organization which does many thing including defining password standards for the government. The recently published new recommendations which overturn some previously widely recommended practices. You can read the original publication at https://pages.nist.gov/800-63-3/sp800-63-3.html. Here is a breakdown of how to set a secure password policy according to NIST.
+Favor longer passwords NIST recommends a minimum password length of 8 characters.</description>
+    </item>
+    
+    <item>
+      <title>KeePass</title>
+      <link>https://chuckmcandrew.com/post/2017/05/12/keepass/</link>
+      <pubDate>Fri, 12 May 2017 20:49:29 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/05/12/keepass/</guid>
+      <description>Recently, I was browsing https://haveibeenpwned.com/ and found that one of my old email addresses had been involved in a data breach. Looking into it more, it seemed that the company involved (adobe, go figure) had done a poor job of securing the passwords so there is a good chance that my password was compromised. Like everyone else on the planet, I used to use a couple of passwords for all of my accounts.</description>
+    </item>
+    
+    <item>
+      <title>The Importance of HTTPS</title>
+      <link>https://chuckmcandrew.com/post/2017/04/24/the-importance-of-https/</link>
+      <pubDate>Mon, 24 Apr 2017 17:14:21 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/04/24/the-importance-of-https/</guid>
+      <description>People have been preaching about the importance of https for a long time now. However, it seems that many libraries and library vendors haven&amp;rsquo;t yet got the message. I decided to add my voice to the mix to argue for the importance of https from a public library perspective. We need to ensure that our websites, library catalogs, and ILS&amp;rsquo;s are all running on https, and we need encourage vendors to use https for all their services as well.</description>
+    </item>
+    
+    <item>
+      <title>VPN’s for privacy</title>
+      <link>https://chuckmcandrew.com/post/2017/04/07/vpns-for-privacy/</link>
+      <pubDate>Fri, 07 Apr 2017 14:46:49 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/04/07/vpns-for-privacy/</guid>
+      <description>With congress rolling back FCC privacy rules on ISPs, there has been a lot of interest in ways that you can protect yourself from snooping. One of the best, and easiest, ways to protect yourself is by using a reliable VPN. Right now, ISPs have access to everywhere you go on the web. If you are using https (and you should be), they can&amp;rsquo;t see which specific web page of a site you are on, but they can tell which sites you visit, in which order, and how long you spend on them.</description>
+    </item>
+    
+    <item>
+      <title>If it isn’t backed up, it isn’t important.</title>
+      <link>https://chuckmcandrew.com/post/2017/03/29/if-it-isnt-backed-up-it-isnt-important/</link>
+      <pubDate>Wed, 29 Mar 2017 16:50:00 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/03/29/if-it-isnt-backed-up-it-isnt-important/</guid>
+      <description>Backups are incredibly important today, yet are often overlooked. Good backups can protect you against hardware failures, carelessly deleting files, and even ransomware. If you don&amp;rsquo;t have backups of your data, then you don&amp;rsquo;t care about your data. It is as simple as that. Hardware dies at the most inconvenient times. Ransomware is a fact of life these days. A careless click can ruin your whole day. When I was first setting up our current infrastructure at the Lebanon Public Libraries, I accidentally deleted our entire shared drive.</description>
+    </item>
+    
+    <item>
+      <title>Recent Class on How to Cleanup and Optimize Your (Windows) Computer</title>
+      <link>https://chuckmcandrew.com/post/2017/03/24/recent-class-on-how-to-cleanup-and-optimize-your-windows-computer/</link>
+      <pubDate>Fri, 24 Mar 2017 14:36:16 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/03/24/recent-class-on-how-to-cleanup-and-optimize-your-windows-computer/</guid>
+      <description>Every Tuesday afternoon, from 3:00-4:30pm, I offer a tech class spanning topics of general interest to the public. This week’s tech class was on the subject of how to cleanup and optimize your computer (with a focus on Windows computers), and I admittedly wasn’t too surprised at the high attendance. The average Windows computer user is often beset with slow performance issues due in part to low-end system specs (marketed as a budget-friendly products), system clutter and detritus as a result of use as well as misuse, and even potential malware.</description>
+    </item>
+    
+    <item>
+      <title>Setting up this website</title>
+      <link>https://chuckmcandrew.com/post/2017/02/02/setting-up-this-website/</link>
+      <pubDate>Thu, 02 Feb 2017 22:28:34 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/02/02/setting-up-this-website/</guid>
+      <description>I thought it might be appropriate to talk about the setup for this website as my first post. I used setting up this blog to try out some things that I have heard about for a while and wanted to try. The basics:
+This website runs on a FAMP (FreeBSD, Apache, Mysql, PHP) stack. Most web servers today run on LAMP stacks running some flavor of Linux as their operating system.</description>
+    </item>
+    
+  </channel>
+</rss>

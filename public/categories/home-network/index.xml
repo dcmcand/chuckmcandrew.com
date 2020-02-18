@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home Network on Chuck McAndrew</title>
+    <link>https://chuckmcandrew.com/categories/home-network/</link>
+    <description>Recent content in Home Network on Chuck McAndrew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
+    <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
+    <lastBuildDate>Fri, 11 Aug 2017 15:40:47 +0000</lastBuildDate>
+    
+	<atom:link href="https://chuckmcandrew.com/categories/home-network/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DNS on my mind</title>
+      <link>https://chuckmcandrew.com/post/2017/08/11/dns-on-my-mind/</link>
+      <pubDate>Fri, 11 Aug 2017 15:40:47 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/08/11/dns-on-my-mind/</guid>
+      <description>A recent email thread on the Tor relay operators email list has me thinking about DNS. DNS is like the phonebook of the internet. For example, when you go to https://techielibrarians.com, you don&amp;#8217;t actually go there. You go to 159.203.158.3 (IPv4) or 2604:a880:400:d0::14ab:4002 (IPv6). Obviously, it is far easier to remember techielibrarians.com than a whole string of numbers. That is why we have DNS. DNS is simple in concept, but can provide some complications in practice.</description>
+    </item>
+    
+    <item>
+      <title>Native IPv6 with Comcast Business and pfSense 2.3</title>
+      <link>https://chuckmcandrew.com/post/2017/06/08/native-ipv6-with-comcast-business-and-pfsense-2-3/</link>
+      <pubDate>Thu, 08 Jun 2017 22:00:10 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/06/08/native-ipv6-with-comcast-business-and-pfsense-2-3/</guid>
+      <description>Our ISP, Comcast, has recently rolled out native IPv6 support in our area, so this week I decided to set up our library to be dual stack. The first thing that had to happen was getting a Comcast tech to change out our SMC modem for a Netgear modem. According to Comcast tech support, the SMC doesn&amp;rsquo;t support IPv6.
+Once the modem was switched out, I went in and turned off every feature I could in the modem.</description>
+    </item>
+    
+    <item>
+      <title>The Less Than Typical Subject for a Library Tech Class</title>
+      <link>https://chuckmcandrew.com/post/2017/05/28/the-less-than-typical-subject-for-a-library-tech-class/</link>
+      <pubDate>Sun, 28 May 2017 19:19:37 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/05/28/the-less-than-typical-subject-for-a-library-tech-class/</guid>
+      <description>Every Tuesday, except the last Tuesday of the month, I offer a tech class on various subjects. Not unusually, the major OS platforms, like Windows, Apple iOS and OSX and now macOS, Android, etc., form the natural basis for the subject matter, since it relates to what most people are using and are familiar with in their daily lives. 
+I’ve even offered a class on home networking, but quickly realized during the class presentation that most people are not using their own routers, but are using Comcast Gateways which are hybrid modems and routers.</description>
+    </item>
+    
+  </channel>
+</rss>

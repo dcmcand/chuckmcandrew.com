@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Porteus-Kiosk on Chuck McAndrew</title>
+    <link>https://chuckmcandrew.com/categories/porteus-kiosk/</link>
+    <description>Recent content in Porteus-Kiosk on Chuck McAndrew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
+    <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
+    <lastBuildDate>Sat, 25 Feb 2017 20:04:41 +0000</lastBuildDate>
+    
+	<atom:link href="https://chuckmcandrew.com/categories/porteus-kiosk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Digital Signage on the Cheap – Another Alternative</title>
+      <link>https://chuckmcandrew.com/post/2017/02/25/digital-signage-on-the-cheap-another-alternative/</link>
+      <pubDate>Sat, 25 Feb 2017 20:04:41 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/02/25/digital-signage-on-the-cheap-another-alternative/</guid>
+      <description>An alternative to the Chromebit option mentioned in Chuck’s post on the digital signage deployment at his library is a free, open-source solution called Porteus-Kiosk. This (1) OS paired with an (2) old PC or Thin Client, even with minimal hardware specs, (3) a 4GB flash drive, and a (4) monitor, be it a spare computer monitor of a desirable size, or large-screen TV with VGA or HDMI ports, will serve handily as an in-house digital signage solution to promote library events and services.</description>
+    </item>
+    
+  </channel>
+</rss>

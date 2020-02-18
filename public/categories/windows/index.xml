@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Chuck McAndrew</title>
+    <link>https://chuckmcandrew.com/categories/windows/</link>
+    <description>Recent content in Windows on Chuck McAndrew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
+    <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
+    <lastBuildDate>Fri, 24 Mar 2017 14:36:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://chuckmcandrew.com/categories/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recent Class on How to Cleanup and Optimize Your (Windows) Computer</title>
+      <link>https://chuckmcandrew.com/post/2017/03/24/recent-class-on-how-to-cleanup-and-optimize-your-windows-computer/</link>
+      <pubDate>Fri, 24 Mar 2017 14:36:16 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/03/24/recent-class-on-how-to-cleanup-and-optimize-your-windows-computer/</guid>
+      <description>Every Tuesday afternoon, from 3:00-4:30pm, I offer a tech class spanning topics of general interest to the public. This week’s tech class was on the subject of how to cleanup and optimize your computer (with a focus on Windows computers), and I admittedly wasn’t too surprised at the high attendance. The average Windows computer user is often beset with slow performance issues due in part to low-end system specs (marketed as a budget-friendly products), system clutter and detritus as a result of use as well as misuse, and even potential malware.</description>
+    </item>
+    
+  </channel>
+</rss>

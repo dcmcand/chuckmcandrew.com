@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>website on Chuck McAndrew</title>
+    <link>https://chuckmcandrew.com/categories/website/</link>
+    <description>Recent content in website on Chuck McAndrew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
+    <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
+    <lastBuildDate>Mon, 06 Aug 2018 23:05:12 +0000</lastBuildDate>
+    
+	<atom:link href="https://chuckmcandrew.com/categories/website/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using Let’s Encrypt to secure local services</title>
+      <link>https://chuckmcandrew.com/post/2018/08/06/using-lets-encrypt-to-secure-local-services/</link>
+      <pubDate>Mon, 06 Aug 2018 23:05:12 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2018/08/06/using-lets-encrypt-to-secure-local-services/</guid>
+      <description>Hopefully, at this point everyone has secured all their public facing services with HTTPS. Let&amp;rsquo;s Encrypt makes this quick and easy to do (not to mention free!). What about local services that are only available on your lan though? This is tougher because normal verification methods don&amp;rsquo;t work, yet it is still important. Part of a defense in depth strategy is to always assume you are in a hostile environment, and with all the router vulnerabilities, Universal Plug and Play problems, and issues such as DNS rebinding attacks, it is not a good assumption that there are no malicious actors on your lan.</description>
+    </item>
+    
+    <item>
+      <title>Amazon Web Services</title>
+      <link>https://chuckmcandrew.com/post/2017/11/30/amazon-web-services/</link>
+      <pubDate>Thu, 30 Nov 2017 16:42:38 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/11/30/amazon-web-services/</guid>
+      <description>Notice anything different about this site? Hopefully the answer is no. My library is transitioning from Digital Ocean to Amazon Web Services for our web presence and this site is our test case. We were very happy with Digital Ocean as a host, but Tech Soup offers $2000 in AWS credit for $175 (or $80 if you belong to their Boost program). We had been averaging somewhere around $30/month for Digital Ocean, so if we assume that Amazon is close on their pricing (which may or may not be a justified assumption), we stand to save $185 just from making that switch.</description>
+    </item>
+    
+    <item>
+      <title>The Importance of HTTPS</title>
+      <link>https://chuckmcandrew.com/post/2017/04/24/the-importance-of-https/</link>
+      <pubDate>Mon, 24 Apr 2017 17:14:21 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/04/24/the-importance-of-https/</guid>
+      <description>People have been preaching about the importance of https for a long time now. However, it seems that many libraries and library vendors haven&amp;rsquo;t yet got the message. I decided to add my voice to the mix to argue for the importance of https from a public library perspective. We need to ensure that our websites, library catalogs, and ILS&amp;rsquo;s are all running on https, and we need encourage vendors to use https for all their services as well.</description>
+    </item>
+    
+    <item>
+      <title>Setting up this website</title>
+      <link>https://chuckmcandrew.com/post/2017/02/02/setting-up-this-website/</link>
+      <pubDate>Thu, 02 Feb 2017 22:28:34 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/02/02/setting-up-this-website/</guid>
+      <description>I thought it might be appropriate to talk about the setup for this website as my first post. I used setting up this blog to try out some things that I have heard about for a while and wanted to try. The basics:
+This website runs on a FAMP (FreeBSD, Apache, Mysql, PHP) stack. Most web servers today run on LAMP stacks running some flavor of Linux as their operating system.</description>
+    </item>
+    
+  </channel>
+</rss>

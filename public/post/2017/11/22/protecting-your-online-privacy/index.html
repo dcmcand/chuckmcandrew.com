@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Protecting your online privacy - Chuck McAndrew</title>
+  <meta name="description" content="Which steps you take to protect yourself online depend entirely on your personal threat model. I have tried to select things that are broadly applicable and are easy to implement. This is a topic where you can absolutely deep dive, but remaining totally anonymous online is very difficult (if not impossible) and takes a lot of effort and discipline. Fortunately, the vast majority of people don’t require that level of protection.">
+  <meta name="author" content="Chuck McAndrew"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Chuck McAndrew",
+    
+    "url": "https:\/\/chuckmcandrew.com"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/chuckmcandrew.com"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/chuckmcandrew.com",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/chuckmcandrew.com\/post\/2017\/11\/22\/protecting-your-online-privacy\/",
+          "name": "Protecting your online privacy"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Chuck McAndrew"
+  },
+  "headline": "Protecting your online privacy",
+  "description" : "Which steps you take to protect yourself online depend entirely on your personal threat model. I have tried to select things that are broadly applicable and are easy to implement. This is a topic where you can absolutely deep dive, but remaining totally anonymous online is very difficult (if not impossible) and takes a lot of effort and discipline. Fortunately, the vast majority of people don’t require that level of protection.",
+  "inLanguage" : "en",
+  "wordCount":  1610 ,
+  "datePublished" : "2017-11-22T15:49:10",
+  "dateModified" : "2017-11-22T15:49:10",
+  "image" : "https:\/\/chuckmcandrew.com\/img\/logo-small.png",
+  "keywords" : [ "" ],
+  "mainEntityOfPage" : "https:\/\/chuckmcandrew.com\/post\/2017\/11\/22\/protecting-your-online-privacy\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/chuckmcandrew.com",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/chuckmcandrew.com\/img\/logo-small.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Protecting your online privacy" />
+<meta property="og:description" content="Which steps you take to protect yourself online depend entirely on your personal threat model. I have tried to select things that are broadly applicable and are easy to implement. This is a topic where you can absolutely deep dive, but remaining totally anonymous online is very difficult (if not impossible) and takes a lot of effort and discipline. Fortunately, the vast majority of people don’t require that level of protection.">
+<meta property="og:image" content="https://chuckmcandrew.com/img/logo-small.png" />
+<meta property="og:url" content="https://chuckmcandrew.com/post/2017/11/22/protecting-your-online-privacy/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Chuck McAndrew" />
+
+  <meta name="twitter:title" content="Protecting your online privacy" />
+  <meta name="twitter:description" content="Which steps you take to protect yourself online depend entirely on your personal threat model. I have tried to select things that are broadly applicable and are easy to implement. This is a topic …">
+  <meta name="twitter:image" content="https://chuckmcandrew.com/img/logo-small.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.59.1" />
+  <link rel="alternate" href="https://chuckmcandrew.com/index.xml" type="application/rss+xml" title="Chuck McAndrew"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://chuckmcandrew.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://chuckmcandrew.com/css/highlight.min.css" /><link rel="stylesheet" href="https://chuckmcandrew.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://chuckmcandrew.com">Chuck McAndrew</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/post/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Classes" href="/class">Classes</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/about/">About</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Chuck McAndrew" href="https://chuckmcandrew.com">
+            <img class="avatar-img" src="https://chuckmcandrew.com/img/logo-small.png" alt="Chuck McAndrew" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Protecting your online privacy</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on November 22, 2017
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;8&nbsp;minutes
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Chuck McAndrew
+    
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        
+
+<p>Which steps you take to protect yourself online depend entirely on your personal threat model. I have tried to select things that are broadly applicable and are easy to implement. This is  a topic where you can absolutely deep dive, but remaining totally anonymous online is very difficult (if not impossible) and takes a lot of effort and discipline. Fortunately, the vast majority of people don’t require that level of protection. However, everyone should address this issue at some level. Online privacy is a subject that affects everyone.</p>
+
+<p>Slides for this class can be found <a href="https://leblibrary.com/sites/default/files/Online%20Self%20Defense%20-%20Yellow%20Belt%20Level_0.pdf">here</a> and handouts can be found <a href="https://leblibrary.com/sites/default/files/yellow-belt-handout.pdf">here</a>.</p>
+
+<h1 id="why-care-about-privacy">Why Care about privacy?</h1>
+
+<p>“Arguing that you don’t care about the right to privacy because you have nothing to hide is no different than saying you don’t care about free speech because you have nothing to say” – Edward Snowden
+<iframe width="688" height="387" src="https://www.youtube.com/embed/I6UuWrVzys4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+<h2 id="you-suffer-when-information-breaches-occur">You suffer when information breaches occur</h2>
+
+<p>Linkedin, Target, Anthem, etc.  All of these companies had lots of your data, and they all had major data breaches.  By limiting the amount of data that companies have about you, you limit the damage that their carelessness can do.  Remeber, any time that you put information online, it is now out of your control.</p>
+
+<h2 id="privacy-protects-those-who-need-it">Privacy protects those who need it</h2>
+
+<p>There are many vulnerable populations that need privacy to avoid persecution. Depending on where you are in the world, this populations may include domestic abuse victims, members of the LGBT community, human rights workers and many others.  Privacy also protects everyday people.  Privacy allows a safe space to explore new ideas and ways of thinking without judgement.  These ideas can literally change the world.  When Thomas Paine wrote Common Sense, he published it anonymously.  If his work had been under strict surveillance, he could not have possibly published a pamphlet so contrary to the views of those in power.  Librarians refer to this freedom to explore ideas as intellectual freedom and it is impossible without privacy.</p>
+
+<h1 id="who-wants-to-surveil-you">Who wants to surveil you?</h1>
+
+<h2 id="criminals-hackers">Criminals / Hackers</h2>
+
+<p>Your information is valuable.  If they can gain access to some of it, they can often get access to much more.  A social security number can get you a credit card, or let you file a fradulent tax return.  Your email contacts can give them information to do a targeted “spear phishing” attack which might get them banking information.  Even just your name and email address is worth something to them.  By limiting the information that is available about you, you limit your exposure to this kind of exploitation.</p>
+
+<h2 id="corporations-advertising-agencies">Corporations/Advertising Agencies</h2>
+
+<p>Information is the currency of the internet.  Companies like Google and Facebook sell your information to advertisers.  The more know, the more targeted ads can become.  These companies are far from transparent about what information they have, and what they can do with that information.  Try reading their privacy policies and see how transparent they are.  You may be willing to trade information for access to a service.  However, many companies are collecting far more information than people realize.  Even if we are ok with this, we are still trusting that these companies maintain good security for our information.  The history of major data breaches should cause us to question that trust.</p>
+
+<h2 id="government-agencies">Government Agencies</h2>
+
+<p>No rational person would argue that governments should not be able to gather information on adversaries.  However, this does not give a government agency carte blanche to collect any information on anybody they wish. Technology has made it cheap and easy to use mass surveillance to watch everyone.  By enhancing privacy, we make this more expensive and ensure that the government spends its resources surveilling those who are actual threats rather than simply watching everyone.</p>
+
+<h1 id="what-you-can-do-to-make-surveillance-more-difficult">What you can do to make surveillance more difficult</h1>
+
+<h2 id="use-https">Use HTTPS</h2>
+
+<p>HTTPS encrypts your connection between websites and your computer.  It doesn’t prevent someone watching you from knowing which website you connect to or how long you were there, but it does mean that they can’t see exactly what was transferred between you and the website.  It also helps to ensure that what you are seeing is what the website is sending.  This prevents a Man In The Middle (MitM) attack.</p>
+
+<h2 id="disable-third-party-cookies-in-your-browser">Disable Third Party Cookies in your browser</h2>
+
+<p>Cookies are needed for browsing the internet today, but you can ensure that the only cookies that a site is allowed to set are from that site.</p>
+
+<h2 id="log-out-of-sites-when-done">Log out of sites when done</h2>
+
+<p>Logging out of a site destroys the session cookie for that site.  This keeps other sites from reading the session cookie and learning information about other services that you use.</p>
+
+<h2 id="compartmentalize-web-browsing">Compartmentalize web browsing</h2>
+
+<p>Maintaining seperate identities (or even completely seperate web browsers) for different tasks prevents  sites from gathering information about you that they shouldn’t have access to.</p>
+
+<h2 id="use-duckduckgo">Use Duckduckgo</h2>
+
+<p>Duckduckgo is a search engine company that is built on the promise that they won’t use your search results to try to track you. In addition to the obvious privacy benefits, this also helps to avoid being in a so called “filter bubble” where search engines serve you results that they think you are more likely to click on based on your past behavior.</p>
+
+<p>Duckduckgo has nice features other than privacy. The biggest value add is what they refer to as “bang searches”. These let you search sites directly from Duckduckgo. For example, to search Wikipedia for a list of online search engines you would type “!w online search engines” into Duckduckgo.  Instead of being taken to Duckduckgo’s search results and then having to click on Wikipedia, you are taken straight there. You can find a list of bang searches at <a href="https://duckduckgo.com/bang">https://duckduckgo.com/bang</a>.</p>
+
+<h2 id="use-privacy-enhancing-browser-extensions">Use privacy enhancing browser extensions</h2>
+
+<p>These are called different things in different browsers.  Chrome calls them extensions, Firefox calls them add-ons, etc.  Regardless of what they are called, they add functionality to your web browser.  As was already covered, you should uninstall any unused extensions, but that doesn’t mean that extensions are bad.  They can protect your privacy, limit your exposure to malware, and even lower the amount of bandwidth you use (<a href="http://www.techweekeurope.co.uk/e-marketing/adblock-plus-adblocking-netw…">http://www.techweekeurope.co.uk/e-marketing/adblock-plus-adblocking-netw…</a>).  Here are a few that help.</p>
+
+<p><img src="https://leblibrary.com/sites/default/files/UBlock_Origin.svg_.png" alt="Ublock Origin logo" /></p>
+
+<h3 id="ublock-origin">Ublock Origin</h3>
+
+<p>Ublock Origin is a lightweight, effective, and easy to use ad-blocker that is available for Chrome and Firefox.
+<img src="https://leblibrary.com/sites/default/files/https-everywhere.jpg" alt="Https Everywhere logo" /></p>
+
+<h3 id="https-everywhere">Https Everywhere</h3>
+
+<p>Https Everywhere is  an extension created by the Electronic Frontier Foundation. It forces a site to use an encrypted connection if one is available.  This does not gaurantee a encrypted connection, because some sites do not offer the option.  However, it does ensure that if such a connection is available, you will use it. You can get it here for Firefox, Chrome, and Opera.
+<img src="https://leblibrary.com/sites/default/files/badger.png" alt="Privacy Badger logo" /></p>
+
+<h3 id="privacy-badger">Privacy Badger</h3>
+
+<p>Also put out by the EFF, Privacy Badger goes a long way towards defeating tracking online.  You can see exactly what third-party websites are trying to load things when you visit a new website and you have total control over how much you share.  Download it here for Chrome or Firefox.</p>
+
+<h1 id="dangers-of-public-wifi">Dangers of public wifi</h1>
+
+<p>These days we often use public wifi.  Whether this is at your public library, your favorite coffee shop, or even a fast food restaurant it is still risky because people may be snooping on your web traffic.  This is possible because wifi is simply radio waves going through the air. If the traffic is not encrypted, it can be seen by anyone who cares to listen.
+Ensuring that your connection is encrypted has two benefits.  First, it prevents snooping and possibly stealing information (or even worse passwords and logins).  Second it allows you to verify that the website that you are connected to is the web site you meant to go to.  If the URL in your web browser starts with http://, then you do not have an ecrytped connection.  It should start with https:// for it to be encrypted.  You can also click on the little lock symbol next to the https to find out information about the encryption used and the identity of the website.</p>
+
+<p>To be even more secure, consider using a Virtual Private Network (VPN). This forces all of your traffic through an encrypted tunnel. This means that even if a website doesn’t offer https, no one on the wifi network will be able to see it.</p>
+
+<p>Finally, if you must connect to the internet, using a 4g connection from a phone is considerably more secure than using a random public wifi network.</p>
+
+<h1 id="virtual-private-networks-vpns">Virtual Private Networks (VPNs)</h1>
+
+<p>VPN’s are proxies except that create an encrypted tunnel to the VPN server.  This protects your privacy when on an insecure internet connection such as at a coffee shop or airport.  Both VPN’s and Proxies can be found on <a href="https://proxy.org">https://proxy.org</a>.  Note that some VPN’s keep logs of who connects to them and where the traffic goes from their.  Others do no logging.  These are called anonymous VPN’s and are far better for privacy.</p>
+
+<p><img src="https://leblibrary.com/sites/default/files/vpn.jpg" alt="Diagram of how a vpn works" /></p>
+
+<p>A couple of well regarded VPN’s are:</p>
+
+<p>Express VPN – (<a href="https://www.expressvpn.com/">https://www.expressvpn.com/</a>)</p>
+
+<p>And</p>
+
+<p>NordVPN – (<a href="https://nordvpn.com/">https://nordvpn.com/</a>)</p>
+
+<p>Note: there have been a number of free VPN providers who have been caught selling their customers data. VPN’s are an area where you want to go with a paid company with a good reputation.</p>
+
+<h1 id="tor">Tor</h1>
+
+<p><img src="https://leblibrary.com/sites/default/files/tor.jpg" alt="Diagram showing how the Tor network works" /></p>
+
+<p>TOR is a strong anonymity tool that was originally developed by the navy.  It bounces traffic through three voluntarily hosted relays located around the world while wrapping the traffic in three layers of encryption.  This ensures strong protection against someone on the receiving end being able to trace the IP address of the sender.  Although it isn’t the end all, be all for privacy, it is  a very strong tool.  The Tor browser bundle can be downloaded from <a href="https://torproject.org">https://torproject.org</a>.  it works on all platforms including mobile phones.</p>
+
+<iframe width="688" height="387" src="https://www.youtube.com/embed/JWII85UlzKw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        
+
+        
+
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://chuckmcandrew.com/post/2017/11/17/online-self-defense/" data-toggle="tooltip" data-placement="top" title="Online Self Defense">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://chuckmcandrew.com/post/2017/11/30/amazon-web-services/" data-toggle="tooltip" data-placement="top" title="Amazon Web Services">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+
+    </div>
+  </div>
+</div>
+
+      
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:chuck@chuckmcandrew.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/dcmcand" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="https://chuckmcandrew.com">Chuck McAndrew</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://chuckmcandrew.com">Chuck McAndrew</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.59.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://chuckmcandrew.com/js/main.js"></script>
+<script src="https://chuckmcandrew.com/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://chuckmcandrew.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+

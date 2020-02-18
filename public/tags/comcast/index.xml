@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Comcast on Chuck McAndrew</title>
+    <link>https://chuckmcandrew.com/tags/comcast/</link>
+    <description>Recent content in Comcast on Chuck McAndrew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
+    <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
+    <lastBuildDate>Sun, 28 May 2017 19:19:37 +0000</lastBuildDate>
+    
+	<atom:link href="https://chuckmcandrew.com/tags/comcast/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Less Than Typical Subject for a Library Tech Class</title>
+      <link>https://chuckmcandrew.com/post/2017/05/28/the-less-than-typical-subject-for-a-library-tech-class/</link>
+      <pubDate>Sun, 28 May 2017 19:19:37 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/05/28/the-less-than-typical-subject-for-a-library-tech-class/</guid>
+      <description>Every Tuesday, except the last Tuesday of the month, I offer a tech class on various subjects. Not unusually, the major OS platforms, like Windows, Apple iOS and OSX and now macOS, Android, etc., form the natural basis for the subject matter, since it relates to what most people are using and are familiar with in their daily lives. 
+I’ve even offered a class on home networking, but quickly realized during the class presentation that most people are not using their own routers, but are using Comcast Gateways which are hybrid modems and routers.</description>
+    </item>
+    
+  </channel>
+</rss>

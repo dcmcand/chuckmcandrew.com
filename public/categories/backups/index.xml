@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>backups on Chuck McAndrew</title>
+    <link>https://chuckmcandrew.com/categories/backups/</link>
+    <description>Recent content in backups on Chuck McAndrew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
+    <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
+    <lastBuildDate>Wed, 29 Mar 2017 16:50:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://chuckmcandrew.com/categories/backups/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>If it isn’t backed up, it isn’t important.</title>
+      <link>https://chuckmcandrew.com/post/2017/03/29/if-it-isnt-backed-up-it-isnt-important/</link>
+      <pubDate>Wed, 29 Mar 2017 16:50:00 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/03/29/if-it-isnt-backed-up-it-isnt-important/</guid>
+      <description>Backups are incredibly important today, yet are often overlooked. Good backups can protect you against hardware failures, carelessly deleting files, and even ransomware. If you don&amp;rsquo;t have backups of your data, then you don&amp;rsquo;t care about your data. It is as simple as that. Hardware dies at the most inconvenient times. Ransomware is a fact of life these days. A careless click can ruin your whole day. When I was first setting up our current infrastructure at the Lebanon Public Libraries, I accidentally deleted our entire shared drive.</description>
+    </item>
+    
+  </channel>
+</rss>

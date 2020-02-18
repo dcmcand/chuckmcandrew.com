@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VPNs on Chuck McAndrew</title>
+    <link>https://chuckmcandrew.com/categories/vpns/</link>
+    <description>Recent content in VPNs on Chuck McAndrew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
+    <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
+    <lastBuildDate>Wed, 22 Nov 2017 15:49:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://chuckmcandrew.com/categories/vpns/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Protecting your online privacy</title>
+      <link>https://chuckmcandrew.com/post/2017/11/22/protecting-your-online-privacy/</link>
+      <pubDate>Wed, 22 Nov 2017 15:49:10 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/11/22/protecting-your-online-privacy/</guid>
+      <description>Which steps you take to protect yourself online depend entirely on your personal threat model. I have tried to select things that are broadly applicable and are easy to implement. This is a topic where you can absolutely deep dive, but remaining totally anonymous online is very difficult (if not impossible) and takes a lot of effort and discipline. Fortunately, the vast majority of people don’t require that level of protection.</description>
+    </item>
+    
+    <item>
+      <title>VPN’s for privacy</title>
+      <link>https://chuckmcandrew.com/post/2017/04/07/vpns-for-privacy/</link>
+      <pubDate>Fri, 07 Apr 2017 14:46:49 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/04/07/vpns-for-privacy/</guid>
+      <description>With congress rolling back FCC privacy rules on ISPs, there has been a lot of interest in ways that you can protect yourself from snooping. One of the best, and easiest, ways to protect yourself is by using a reliable VPN. Right now, ISPs have access to everywhere you go on the web. If you are using https (and you should be), they can&amp;rsquo;t see which specific web page of a site you are on, but they can tell which sites you visit, in which order, and how long you spend on them.</description>
+    </item>
+    
+  </channel>
+</rss>

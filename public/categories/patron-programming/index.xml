@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>patron programming on Chuck McAndrew</title>
+    <link>https://chuckmcandrew.com/categories/patron-programming/</link>
+    <description>Recent content in patron programming on Chuck McAndrew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
+    <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
+    <lastBuildDate>Wed, 22 Nov 2017 15:49:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://chuckmcandrew.com/categories/patron-programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Protecting your online privacy</title>
+      <link>https://chuckmcandrew.com/post/2017/11/22/protecting-your-online-privacy/</link>
+      <pubDate>Wed, 22 Nov 2017 15:49:10 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/11/22/protecting-your-online-privacy/</guid>
+      <description>Which steps you take to protect yourself online depend entirely on your personal threat model. I have tried to select things that are broadly applicable and are easy to implement. This is a topic where you can absolutely deep dive, but remaining totally anonymous online is very difficult (if not impossible) and takes a lot of effort and discipline. Fortunately, the vast majority of people don’t require that level of protection.</description>
+    </item>
+    
+    <item>
+      <title>Online Self Defense</title>
+      <link>https://chuckmcandrew.com/post/2017/11/17/online-self-defense/</link>
+      <pubDate>Fri, 17 Nov 2017 19:32:06 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/11/17/online-self-defense/</guid>
+      <description>Inspired by the Electronic Frontier Foundation&amp;#8217;s Surveillance Self Defense, I have put together a five part course covering privacy and security for people ranging from basic to advanced. Here are my notes and slides from the first of the classes. This covers basic topics that every computer user should be familiar with.
+Everything shared on this site is made available under a creative commons share alike license so please feel free to use and modify this for your own library.</description>
+    </item>
+    
+    <item>
+      <title>Recent Class on How to Cleanup and Optimize Your (Windows) Computer</title>
+      <link>https://chuckmcandrew.com/post/2017/03/24/recent-class-on-how-to-cleanup-and-optimize-your-windows-computer/</link>
+      <pubDate>Fri, 24 Mar 2017 14:36:16 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/03/24/recent-class-on-how-to-cleanup-and-optimize-your-windows-computer/</guid>
+      <description>Every Tuesday afternoon, from 3:00-4:30pm, I offer a tech class spanning topics of general interest to the public. This week’s tech class was on the subject of how to cleanup and optimize your computer (with a focus on Windows computers), and I admittedly wasn’t too surprised at the high attendance. The average Windows computer user is often beset with slow performance issues due in part to low-end system specs (marketed as a budget-friendly products), system clutter and detritus as a result of use as well as misuse, and even potential malware.</description>
+    </item>
+    
+    <item>
+      <title>SCRATCH Coding Program for Kids</title>
+      <link>https://chuckmcandrew.com/post/2017/03/17/scratch-coding-program-for-kids/</link>
+      <pubDate>Fri, 17 Mar 2017 20:21:21 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/03/17/scratch-coding-program-for-kids/</guid>
+      <description>In January Chuck McAndrew and I presented a program for grades 3-7 using the Scratch program that is free through the MIT website. Through Chuck&amp;#8217;s initiatives we have designated chromebooks for use in training and programs. We were able to use these giving each participant one to use. We also projected to a large screen to both introduce Scratch and it&amp;#8217;s features as well as allowing an opportunity for the kids to share what they created with each other towards the end of the program.</description>
+    </item>
+    
+    <item>
+      <title>Finch Robots</title>
+      <link>https://chuckmcandrew.com/post/2017/03/10/finch-robots/</link>
+      <pubDate>Fri, 10 Mar 2017 19:53:29 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/03/10/finch-robots/</guid>
+      <description>At the Lebanon Public Libraries, we have been working on expanding our STEM programming. I am sure that a lot of other libraries are in the same boat. We recently ran a Scratch program for kids at our library that went really well (we&amp;#8217;ll have a post up soon with more specifics about that program). We wanted to build on the success of the Scratch program and recently got some grant money, so we decided to purchase some Finch Robots.</description>
+    </item>
+    
+  </channel>
+</rss>

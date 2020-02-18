@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Professional Development on Chuck McAndrew</title>
+    <link>https://chuckmcandrew.com/categories/professional-development/</link>
+    <description>Recent content in Professional Development on Chuck McAndrew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
+    <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
+    <lastBuildDate>Wed, 22 Nov 2017 15:49:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://chuckmcandrew.com/categories/professional-development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Protecting your online privacy</title>
+      <link>https://chuckmcandrew.com/post/2017/11/22/protecting-your-online-privacy/</link>
+      <pubDate>Wed, 22 Nov 2017 15:49:10 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/11/22/protecting-your-online-privacy/</guid>
+      <description>Which steps you take to protect yourself online depend entirely on your personal threat model. I have tried to select things that are broadly applicable and are easy to implement. This is a topic where you can absolutely deep dive, but remaining totally anonymous online is very difficult (if not impossible) and takes a lot of effort and discipline. Fortunately, the vast majority of people don’t require that level of protection.</description>
+    </item>
+    
+    <item>
+      <title>Staying Current</title>
+      <link>https://chuckmcandrew.com/post/2017/06/20/staying-current/</link>
+      <pubDate>Tue, 20 Jun 2017 15:37:44 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/06/20/staying-current/</guid>
+      <description>At a recent training that Mark and I did for the NHLA Paralibrarians section, we were ask a question about how to stay current on computer security topics. This can be quite a challenge, especially for busy librarians with a lot of other things to keep track of. The easy answer is that you do it the same way that you keep current on anything else. However, I thought it might be useful to share some of the specific ways that I keep on top of things.</description>
+    </item>
+    
+    <item>
+      <title>Tech Support is the “New Reference”</title>
+      <link>https://chuckmcandrew.com/post/2017/03/04/tech-support-is-the-new-reference/</link>
+      <pubDate>Sat, 04 Mar 2017 18:55:54 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/03/04/tech-support-is-the-new-reference/</guid>
+      <description>As a corollary to Chuck M.’s recent, compelling post on “The Importance of IT Training in Libraries,” it occurs to me how important technology training in terms of general tech support to patrons has become, even to the point of becoming the “new reference.” 
+In a given month at my library, and I suspect at other libraries, too, tech support inquiries far outweigh and often eclipse what would be considered to be the traditional reference inquiries, such as finding an historical reference or what cemetery (of many in town) is the oldest where a decedent of interest might be buried.</description>
+    </item>
+    
+    <item>
+      <title>The importance of IT training in libraries</title>
+      <link>https://chuckmcandrew.com/post/2017/02/22/the-importance-of-it-training-in-libraries/</link>
+      <pubDate>Wed, 22 Feb 2017 15:06:30 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/02/22/the-importance-of-it-training-in-libraries/</guid>
+      <description>One of the fallacies which librarians battle is that libraries exist for the sake of books. It is understandable that people make this mistake. For decades, libraries have been associated with books, but that doesn&amp;#8217;t make it correct. Books are a means rather than an end. Libraries exist to promote access to information. For centuries, books were the best way to store and make accessible large amounts of information, hence the association between libraries and books.</description>
+    </item>
+    
+    <item>
+      <title>Prep Workflow For Library Tech Classes</title>
+      <link>https://chuckmcandrew.com/post/2017/02/12/prep-workflow-for-library-tech-classes/</link>
+      <pubDate>Mon, 13 Feb 2017 00:46:27 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/02/12/prep-workflow-for-library-tech-classes/</guid>
+      <description>It’s a real pleasure to be part of this new blog for “techie” librarians! It’s like having a new library space that’s just waiting to be filled with new books. I look forward to the exchange of ideas that this venue will afford us, and I can’t wait to read about (and also share) tips and tricks, best practices, successes as well as challenges, that we all face as “techie” librarians in our respective libraries!</description>
+    </item>
+    
+  </channel>
+</rss>

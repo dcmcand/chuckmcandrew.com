@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>freebsd on Chuck McAndrew</title>
+    <link>https://chuckmcandrew.com/categories/freebsd/</link>
+    <description>Recent content in freebsd on Chuck McAndrew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
+    <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
+    <lastBuildDate>Thu, 08 Jun 2017 22:00:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://chuckmcandrew.com/categories/freebsd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Native IPv6 with Comcast Business and pfSense 2.3</title>
+      <link>https://chuckmcandrew.com/post/2017/06/08/native-ipv6-with-comcast-business-and-pfsense-2-3/</link>
+      <pubDate>Thu, 08 Jun 2017 22:00:10 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/06/08/native-ipv6-with-comcast-business-and-pfsense-2-3/</guid>
+      <description>Our ISP, Comcast, has recently rolled out native IPv6 support in our area, so this week I decided to set up our library to be dual stack. The first thing that had to happen was getting a Comcast tech to change out our SMC modem for a Netgear modem. According to Comcast tech support, the SMC doesn&amp;rsquo;t support IPv6.
+Once the modem was switched out, I went in and turned off every feature I could in the modem.</description>
+    </item>
+    
+    <item>
+      <title>Setting up this website</title>
+      <link>https://chuckmcandrew.com/post/2017/02/02/setting-up-this-website/</link>
+      <pubDate>Thu, 02 Feb 2017 22:28:34 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/02/02/setting-up-this-website/</guid>
+      <description>I thought it might be appropriate to talk about the setup for this website as my first post. I used setting up this blog to try out some things that I have heard about for a while and wanted to try. The basics:
+This website runs on a FAMP (FreeBSD, Apache, Mysql, PHP) stack. Most web servers today run on LAMP stacks running some flavor of Linux as their operating system.</description>
+    </item>
+    
+  </channel>
+</rss>

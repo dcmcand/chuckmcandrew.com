@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Signage on Chuck McAndrew</title>
+    <link>https://chuckmcandrew.com/categories/digital-signage/</link>
+    <description>Recent content in Digital Signage on Chuck McAndrew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
+    <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
+    <lastBuildDate>Sun, 08 Oct 2017 19:51:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://chuckmcandrew.com/categories/digital-signage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Yet Another Digital Signage Solution on the Cheap</title>
+      <link>https://chuckmcandrew.com/post/2017/10/08/yet-another-digital-signage-solution-on-the-cheap/</link>
+      <pubDate>Sun, 08 Oct 2017 19:51:17 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/10/08/yet-another-digital-signage-solution-on-the-cheap/</guid>
+      <description>1st Gen Chromecast The first-generation Google Chromecast dongle was made available in 2013 for around $35 dollars. I acquired one of these devices for our library so that I could wirelessly cast our Samsung Galaxy Tab&amp;#8217;s screen to our AV system during classes and training sessions, and thus handily avoid the need for wired tethering along with the necessary adaptors to effect this.
+The device has served us well, but with the advance of screen resolution technologies in mobile devices as well as the demands of mirroring the same, it makes sense to upgrade to Google’s latest model refresh, the Chromecast Ultra model, which promises better overall performance, less wireless lag, and support for 4K resolution and high dynamic range, among other things.</description>
+    </item>
+    
+    <item>
+      <title>Digital Signage on the Cheap – Another Alternative</title>
+      <link>https://chuckmcandrew.com/post/2017/02/25/digital-signage-on-the-cheap-another-alternative/</link>
+      <pubDate>Sat, 25 Feb 2017 20:04:41 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/02/25/digital-signage-on-the-cheap-another-alternative/</guid>
+      <description>An alternative to the Chromebit option mentioned in Chuck’s post on the digital signage deployment at his library is a free, open-source solution called Porteus-Kiosk. This (1) OS paired with an (2) old PC or Thin Client, even with minimal hardware specs, (3) a 4GB flash drive, and a (4) monitor, be it a spare computer monitor of a desirable size, or large-screen TV with VGA or HDMI ports, will serve handily as an in-house digital signage solution to promote library events and services.</description>
+    </item>
+    
+    <item>
+      <title>Digital Signage on the Cheap</title>
+      <link>https://chuckmcandrew.com/post/2017/02/08/digital-signage-on-the-cheap/</link>
+      <pubDate>Wed, 08 Feb 2017 20:39:42 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/02/08/digital-signage-on-the-cheap/</guid>
+      <description>Recently, I was tasked with coming up with a digital signage solution for our library. This was for interior displays rather than outdoor signage. We had a few hundred dollars available for this project, but nowhere near enough to buy a commercial solution. Originally, we wanted to run a slideshow for Veteran&amp;#8217;s Day, but planned to change it into general purpose advertising for library events after Veteran&amp;#8217;s Day was past. Ideally I wanted something that would be very simple to keep up to date.</description>
+    </item>
+    
+  </channel>
+</rss>

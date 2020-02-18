@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>online security basics on Chuck McAndrew</title>
+    <link>https://chuckmcandrew.com/tags/online-security-basics/</link>
+    <description>Recent content in online security basics on Chuck McAndrew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
+    <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
+    <lastBuildDate>Thu, 27 Jun 2019 16:47:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://chuckmcandrew.com/tags/online-security-basics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Online Security Basics 2</title>
+      <link>https://chuckmcandrew.com/post/2019/06/27/online-security-basics-2/</link>
+      <pubDate>Thu, 27 Jun 2019 16:47:05 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2019/06/27/online-security-basics-2/</guid>
+      <description>This is part 2 of 10 of a series of relatively short posts that focus on things that everyone should think about to be safe when using computers. This is based on a class that I teach which can be found at https://chuckmcandrew.com/class/onlinesecuritybasics/. Feel free to use the class as is, or fork it on Github and make it your own.
+If you can remember all of your passwords, you are doing it wrong LassPass estimates that 85% of account compromises are because of poor passwords.</description>
+    </item>
+    
+    <item>
+      <title>Online Security Basics Part 1</title>
+      <link>https://chuckmcandrew.com/post/2019/06/05/online-security-basics-part-1/</link>
+      <pubDate>Wed, 05 Jun 2019 13:54:16 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2019/06/05/online-security-basics-part-1/</guid>
+      <description>This is part 1 of 10 of a series of relatively short posts that focus on things that everyone should think about to be safe when using computers. This is based on a class that I teach which can be found at https://chuckmcandrew.com/class/onlinesecuritybasics/. Feel free to use the class as is, or fork it on Github and make it your own.
+Do your updates When we think about hackers compromising computer systems, we often imagine them having secret exploits that no one else knows about.</description>
+    </item>
+    
+  </channel>
+</rss>

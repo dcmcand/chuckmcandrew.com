@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenKiosk on Chuck McAndrew</title>
+    <link>https://chuckmcandrew.com/tags/openkiosk/</link>
+    <description>Recent content in OpenKiosk on Chuck McAndrew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
+    <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
+    <lastBuildDate>Sat, 24 Jun 2017 20:00:36 +0000</lastBuildDate>
+    
+	<atom:link href="https://chuckmcandrew.com/tags/openkiosk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OPAC Deployments on the Cheap</title>
+      <link>https://chuckmcandrew.com/post/2017/06/24/opac-deployments-on-the-cheap/</link>
+      <pubDate>Sat, 24 Jun 2017 20:00:36 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/06/24/opac-deployments-on-the-cheap/</guid>
+      <description>On this Blog we’ve featured digital signage resources using free or low-cost software and hardware, including Porteus-Kiosk  running on flash drives and Chrome on ChromeBits. I’ve been using Porteus-Kiosk for a couple of OPAC deployments in my library, but the initial setup and sluggish performance when running on a flash drive are less than optimal.
+Thanks to a recent tip from Darrell Eifert from the Lane Memorial Library, I’ve found an impressive alternative, and it’s called OpenKiosk.</description>
+    </item>
+    
+  </channel>
+</rss>

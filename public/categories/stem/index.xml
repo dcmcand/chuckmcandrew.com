@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>STEM on Chuck McAndrew</title>
+    <link>https://chuckmcandrew.com/categories/stem/</link>
+    <description>Recent content in STEM on Chuck McAndrew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
+    <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
+    <lastBuildDate>Fri, 17 Mar 2017 20:21:21 +0000</lastBuildDate>
+    
+	<atom:link href="https://chuckmcandrew.com/categories/stem/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SCRATCH Coding Program for Kids</title>
+      <link>https://chuckmcandrew.com/post/2017/03/17/scratch-coding-program-for-kids/</link>
+      <pubDate>Fri, 17 Mar 2017 20:21:21 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/03/17/scratch-coding-program-for-kids/</guid>
+      <description>In January Chuck McAndrew and I presented a program for grades 3-7 using the Scratch program that is free through the MIT website. Through Chuck&amp;#8217;s initiatives we have designated chromebooks for use in training and programs. We were able to use these giving each participant one to use. We also projected to a large screen to both introduce Scratch and it&amp;#8217;s features as well as allowing an opportunity for the kids to share what they created with each other towards the end of the program.</description>
+    </item>
+    
+    <item>
+      <title>Finch Robots</title>
+      <link>https://chuckmcandrew.com/post/2017/03/10/finch-robots/</link>
+      <pubDate>Fri, 10 Mar 2017 19:53:29 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/03/10/finch-robots/</guid>
+      <description>At the Lebanon Public Libraries, we have been working on expanding our STEM programming. I am sure that a lot of other libraries are in the same boat. We recently ran a Scratch program for kids at our library that went really well (we&amp;#8217;ll have a post up soon with more specifics about that program). We wanted to build on the success of the Scratch program and recently got some grant money, so we decided to purchase some Finch Robots.</description>
+    </item>
+    
+  </channel>
+</rss>

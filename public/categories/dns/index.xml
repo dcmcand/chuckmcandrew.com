@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dns on Chuck McAndrew</title>
+    <link>https://chuckmcandrew.com/categories/dns/</link>
+    <description>Recent content in dns on Chuck McAndrew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
+    <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
+    <lastBuildDate>Mon, 06 Aug 2018 23:05:12 +0000</lastBuildDate>
+    
+	<atom:link href="https://chuckmcandrew.com/categories/dns/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using Let’s Encrypt to secure local services</title>
+      <link>https://chuckmcandrew.com/post/2018/08/06/using-lets-encrypt-to-secure-local-services/</link>
+      <pubDate>Mon, 06 Aug 2018 23:05:12 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2018/08/06/using-lets-encrypt-to-secure-local-services/</guid>
+      <description>Hopefully, at this point everyone has secured all their public facing services with HTTPS. Let&amp;rsquo;s Encrypt makes this quick and easy to do (not to mention free!). What about local services that are only available on your lan though? This is tougher because normal verification methods don&amp;rsquo;t work, yet it is still important. Part of a defense in depth strategy is to always assume you are in a hostile environment, and with all the router vulnerabilities, Universal Plug and Play problems, and issues such as DNS rebinding attacks, it is not a good assumption that there are no malicious actors on your lan.</description>
+    </item>
+    
+    <item>
+      <title>DNS on my mind</title>
+      <link>https://chuckmcandrew.com/post/2017/08/11/dns-on-my-mind/</link>
+      <pubDate>Fri, 11 Aug 2017 15:40:47 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/08/11/dns-on-my-mind/</guid>
+      <description>A recent email thread on the Tor relay operators email list has me thinking about DNS. DNS is like the phonebook of the internet. For example, when you go to https://techielibrarians.com, you don&amp;#8217;t actually go there. You go to 159.203.158.3 (IPv4) or 2604:a880:400:d0::14ab:4002 (IPv6). Obviously, it is far easier to remember techielibrarians.com than a whole string of numbers. That is why we have DNS. DNS is simple in concept, but can provide some complications in practice.</description>
+    </item>
+    
+  </channel>
+</rss>

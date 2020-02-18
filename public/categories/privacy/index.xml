@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Privacy on Chuck McAndrew</title>
+    <link>https://chuckmcandrew.com/categories/privacy/</link>
+    <description>Recent content in Privacy on Chuck McAndrew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
+    <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
+    <lastBuildDate>Mon, 06 Aug 2018 23:05:12 +0000</lastBuildDate>
+    
+	<atom:link href="https://chuckmcandrew.com/categories/privacy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using Let’s Encrypt to secure local services</title>
+      <link>https://chuckmcandrew.com/post/2018/08/06/using-lets-encrypt-to-secure-local-services/</link>
+      <pubDate>Mon, 06 Aug 2018 23:05:12 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2018/08/06/using-lets-encrypt-to-secure-local-services/</guid>
+      <description>Hopefully, at this point everyone has secured all their public facing services with HTTPS. Let&amp;rsquo;s Encrypt makes this quick and easy to do (not to mention free!). What about local services that are only available on your lan though? This is tougher because normal verification methods don&amp;rsquo;t work, yet it is still important. Part of a defense in depth strategy is to always assume you are in a hostile environment, and with all the router vulnerabilities, Universal Plug and Play problems, and issues such as DNS rebinding attacks, it is not a good assumption that there are no malicious actors on your lan.</description>
+    </item>
+    
+    <item>
+      <title>Protecting your online privacy</title>
+      <link>https://chuckmcandrew.com/post/2017/11/22/protecting-your-online-privacy/</link>
+      <pubDate>Wed, 22 Nov 2017 15:49:10 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/11/22/protecting-your-online-privacy/</guid>
+      <description>Which steps you take to protect yourself online depend entirely on your personal threat model. I have tried to select things that are broadly applicable and are easy to implement. This is a topic where you can absolutely deep dive, but remaining totally anonymous online is very difficult (if not impossible) and takes a lot of effort and discipline. Fortunately, the vast majority of people don’t require that level of protection.</description>
+    </item>
+    
+    <item>
+      <title>Online Self Defense</title>
+      <link>https://chuckmcandrew.com/post/2017/11/17/online-self-defense/</link>
+      <pubDate>Fri, 17 Nov 2017 19:32:06 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/11/17/online-self-defense/</guid>
+      <description>Inspired by the Electronic Frontier Foundation&amp;#8217;s Surveillance Self Defense, I have put together a five part course covering privacy and security for people ranging from basic to advanced. Here are my notes and slides from the first of the classes. This covers basic topics that every computer user should be familiar with.
+Everything shared on this site is made available under a creative commons share alike license so please feel free to use and modify this for your own library.</description>
+    </item>
+    
+    <item>
+      <title>haveibeenpwned now checks passwords too</title>
+      <link>https://chuckmcandrew.com/post/2017/08/21/haveibeenpwned-now-checks-passwords-too/</link>
+      <pubDate>Mon, 21 Aug 2017 23:39:24 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/08/21/haveibeenpwned-now-checks-passwords-too/</guid>
+      <description>There is a great tool called haveibeenpwned put out by Troy Hunt. You can enter an email address or username into this website, and it will tell you if it has been involved in a data breach. This is great so that you can quickly change your password for a compromised account. Troy now has a service that will check passwords against data breaches as well. If you don&amp;#8217;t want to put your password into a random third-party website, you can put in a sha1 hash of your password instead or you can download the entire 5.</description>
+    </item>
+    
+    <item>
+      <title>DNS on my mind</title>
+      <link>https://chuckmcandrew.com/post/2017/08/11/dns-on-my-mind/</link>
+      <pubDate>Fri, 11 Aug 2017 15:40:47 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/08/11/dns-on-my-mind/</guid>
+      <description>A recent email thread on the Tor relay operators email list has me thinking about DNS. DNS is like the phonebook of the internet. For example, when you go to https://techielibrarians.com, you don&amp;#8217;t actually go there. You go to 159.203.158.3 (IPv4) or 2604:a880:400:d0::14ab:4002 (IPv6). Obviously, it is far easier to remember techielibrarians.com than a whole string of numbers. That is why we have DNS. DNS is simple in concept, but can provide some complications in practice.</description>
+    </item>
+    
+    <item>
+      <title>Staying Current</title>
+      <link>https://chuckmcandrew.com/post/2017/06/20/staying-current/</link>
+      <pubDate>Tue, 20 Jun 2017 15:37:44 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/06/20/staying-current/</guid>
+      <description>At a recent training that Mark and I did for the NHLA Paralibrarians section, we were ask a question about how to stay current on computer security topics. This can be quite a challenge, especially for busy librarians with a lot of other things to keep track of. The easy answer is that you do it the same way that you keep current on anything else. However, I thought it might be useful to share some of the specific ways that I keep on top of things.</description>
+    </item>
+    
+    <item>
+      <title>Passwords</title>
+      <link>https://chuckmcandrew.com/post/2017/06/02/passwords/</link>
+      <pubDate>Fri, 02 Jun 2017 12:00:55 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/06/02/passwords/</guid>
+      <description>The National Institute of Standards and Technology is a US Government organization which does many thing including defining password standards for the government. The recently published new recommendations which overturn some previously widely recommended practices. You can read the original publication at https://pages.nist.gov/800-63-3/sp800-63-3.html. Here is a breakdown of how to set a secure password policy according to NIST.
+Favor longer passwords NIST recommends a minimum password length of 8 characters.</description>
+    </item>
+    
+    <item>
+      <title>KeePass</title>
+      <link>https://chuckmcandrew.com/post/2017/05/12/keepass/</link>
+      <pubDate>Fri, 12 May 2017 20:49:29 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/05/12/keepass/</guid>
+      <description>Recently, I was browsing https://haveibeenpwned.com/ and found that one of my old email addresses had been involved in a data breach. Looking into it more, it seemed that the company involved (adobe, go figure) had done a poor job of securing the passwords so there is a good chance that my password was compromised. Like everyone else on the planet, I used to use a couple of passwords for all of my accounts.</description>
+    </item>
+    
+    <item>
+      <title>The Importance of HTTPS</title>
+      <link>https://chuckmcandrew.com/post/2017/04/24/the-importance-of-https/</link>
+      <pubDate>Mon, 24 Apr 2017 17:14:21 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/04/24/the-importance-of-https/</guid>
+      <description>People have been preaching about the importance of https for a long time now. However, it seems that many libraries and library vendors haven&amp;rsquo;t yet got the message. I decided to add my voice to the mix to argue for the importance of https from a public library perspective. We need to ensure that our websites, library catalogs, and ILS&amp;rsquo;s are all running on https, and we need encourage vendors to use https for all their services as well.</description>
+    </item>
+    
+    <item>
+      <title>VPN’s for privacy</title>
+      <link>https://chuckmcandrew.com/post/2017/04/07/vpns-for-privacy/</link>
+      <pubDate>Fri, 07 Apr 2017 14:46:49 +0000</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2017/04/07/vpns-for-privacy/</guid>
+      <description>With congress rolling back FCC privacy rules on ISPs, there has been a lot of interest in ways that you can protect yourself from snooping. One of the best, and easiest, ways to protect yourself is by using a reliable VPN. Right now, ISPs have access to everywhere you go on the web. If you are using https (and you should be), they can&amp;rsquo;t see which specific web page of a site you are on, but they can tell which sites you visit, in which order, and how long you spend on them.</description>
+    </item>
+    
+  </channel>
+</rss>
