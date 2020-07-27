@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
     <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
-    <lastBuildDate>Thu, 27 Jun 2019 16:47:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2020 09:42:57 -0400</lastBuildDate>
     
 	<atom:link href="https://chuckmcandrew.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>homelab</title>
+      <link>https://chuckmcandrew.com/tags/homelab/</link>
+      <pubDate>Mon, 27 Jul 2020 09:42:57 -0400</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/tags/homelab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raspberrypi</title>
+      <link>https://chuckmcandrew.com/tags/raspberrypi/</link>
+      <pubDate>Mon, 27 Jul 2020 09:42:57 -0400</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/tags/raspberrypi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>selfhosted</title>
+      <link>https://chuckmcandrew.com/tags/selfhosted/</link>
+      <pubDate>Mon, 27 Jul 2020 09:42:57 -0400</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/tags/selfhosted/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>online security basics</title>

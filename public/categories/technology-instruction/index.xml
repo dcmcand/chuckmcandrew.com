@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
     <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
-    <lastBuildDate>Thu, 27 Jun 2019 16:47:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2020 09:42:57 -0400</lastBuildDate>
     
 	<atom:link href="https://chuckmcandrew.com/categories/technology-instruction/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Raspberry Pi 4 Home Server</title>
+      <link>https://chuckmcandrew.com/post/2020/07/27/raspberry-pi-4-home-server/</link>
+      <pubDate>Mon, 27 Jul 2020 09:42:57 -0400</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2020/07/27/raspberry-pi-4-home-server/</guid>
+      <description>I have been interested in setting up a home server for a while, and we have some other patrons who are interested in this too. I figured with the whole pandemic things, and working from home, this would be a good excuse.
+To start with, I ordered a Raspberry Pi 4 with 8GB of ram. This should have plenty of oomph for the things I want to do while still being silent and power efficient.</description>
+    </item>
     
     <item>
       <title>Online Security Basics 2</title>
@@ -19,7 +29,7 @@
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2019/06/27/online-security-basics-2/</guid>
       <description>This is part 2 of 10 of a series of relatively short posts that focus on things that everyone should think about to be safe when using computers. This is based on a class that I teach which can be found at https://chuckmcandrew.com/class/onlinesecuritybasics/. Feel free to use the class as is, or fork it on Github and make it your own.
-If you can remember all of your passwords, you are doing it wrong LassPass estimates that 85% of account compromises are because of poor passwords.</description>
+If you can remember all of your passwords, you are doing it wrong LassPassestimates that 85% of account compromises are because of poor passwords.</description>
     </item>
     
     <item>
@@ -47,7 +57,7 @@ Do your updates When we think about hackers compromising computer systems, we of
       <pubDate>Fri, 17 Nov 2017 19:32:06 +0000</pubDate>
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2017/11/17/online-self-defense/</guid>
-      <description>Inspired by the Electronic Frontier Foundation&amp;#8217;s Surveillance Self Defense, I have put together a five part course covering privacy and security for people ranging from basic to advanced. Here are my notes and slides from the first of the classes. This covers basic topics that every computer user should be familiar with.
+      <description>Inspired by the Electronic Frontier Foundation’s Surveillance Self Defense, I have put together a five part course covering privacy and security for people ranging from basic to advanced. Here are my notes and slides from the first of the classes. This covers basic topics that every computer user should be familiar with.
 Everything shared on this site is made available under a creative commons share alike license so please feel free to use and modify this for your own library.</description>
     </item>
     
@@ -85,7 +95,7 @@ Everything shared on this site is made available under a creative commons share 
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2017/06/02/passwords/</guid>
       <description>The National Institute of Standards and Technology is a US Government organization which does many thing including defining password standards for the government. The recently published new recommendations which overturn some previously widely recommended practices. You can read the original publication at https://pages.nist.gov/800-63-3/sp800-63-3.html. Here is a breakdown of how to set a secure password policy according to NIST.
-Favor longer passwords NIST recommends a minimum password length of 8 characters.</description>
+Favor longer passwords NIST recommends a minimum password length of 8 characters. If you must have a maximum length, they recommend at least 64 characters.</description>
     </item>
     
     <item>
@@ -94,8 +104,7 @@ Favor longer passwords NIST recommends a minimum password length of 8 characters
       <pubDate>Sun, 28 May 2017 19:19:37 +0000</pubDate>
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2017/05/28/the-less-than-typical-subject-for-a-library-tech-class/</guid>
-      <description>Every Tuesday, except the last Tuesday of the month, I offer a tech class on various subjects. Not unusually, the major OS platforms, like Windows, Apple iOS and OSX and now macOS, Android, etc., form the natural basis for the subject matter, since it relates to what most people are using and are familiar with in their daily lives. 
-I’ve even offered a class on home networking, but quickly realized during the class presentation that most people are not using their own routers, but are using Comcast Gateways which are hybrid modems and routers.</description>
+      <description>Every Tuesday, except the last Tuesday of the month, I offer a tech class on various subjects. Not unusually, the major OS platforms, like Windows, Apple iOS and OSX and now macOS, Android, etc., form the natural basis for the subject matter, since it relates to what most people are using and are familiar with in their daily lives. I’ve even offered a class on home networking, but quickly realized during the class presentation that most people are not using their own routers, but are using Comcast Gateways which are hybrid modems and routers.</description>
     </item>
     
     <item>
@@ -114,7 +123,8 @@ I’ve even offered a class on home networking, but quickly realized during the 
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2017/05/07/nhla-spring-conference-2017-its-roundtable-discussion-notes/</guid>
       <description>At this year’s 2017 NHLA Spring Conference I participated in an ITS Roundtable session which featured a number of interesting topics for discussion. The free-flow of roundtable discussions is often an ideal atmosphere for the willing exchange of ideas as well as the participation of those who might otherwise be less inclined to share. Topics for discussion included…
- when is the ideal time to offer tech classes if libraries video-record their classes, and if so, what recording tools do they use whether libraries find a high demand for Consumer Reports, and if so, whether they maintain a separate subscription to CR.</description>
+  when is the ideal time to offer tech classes
+  if libraries video-record their classes, and if so, what recording tools do they use</description>
     </item>
     
     <item>
@@ -150,7 +160,7 @@ I’ve even offered a class on home networking, but quickly realized during the 
       <pubDate>Fri, 17 Mar 2017 20:21:21 +0000</pubDate>
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2017/03/17/scratch-coding-program-for-kids/</guid>
-      <description>In January Chuck McAndrew and I presented a program for grades 3-7 using the Scratch program that is free through the MIT website. Through Chuck&amp;#8217;s initiatives we have designated chromebooks for use in training and programs. We were able to use these giving each participant one to use. We also projected to a large screen to both introduce Scratch and it&amp;#8217;s features as well as allowing an opportunity for the kids to share what they created with each other towards the end of the program.</description>
+      <description>In January Chuck McAndrew and I presented a program for grades 3-7 using the Scratch program that is free through the MIT website. Through Chuck’s initiatives we have designated chromebooks for use in training and programs. We were able to use these giving each participant one to use. We also projected to a large screen to both introduce Scratch and it’s features as well as allowing an opportunity for the kids to share what they created with each other towards the end of the program.</description>
     </item>
     
     <item>
@@ -159,7 +169,7 @@ I’ve even offered a class on home networking, but quickly realized during the 
       <pubDate>Wed, 22 Feb 2017 15:06:30 +0000</pubDate>
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2017/02/22/the-importance-of-it-training-in-libraries/</guid>
-      <description>One of the fallacies which librarians battle is that libraries exist for the sake of books. It is understandable that people make this mistake. For decades, libraries have been associated with books, but that doesn&amp;#8217;t make it correct. Books are a means rather than an end. Libraries exist to promote access to information. For centuries, books were the best way to store and make accessible large amounts of information, hence the association between libraries and books.</description>
+      <description>One of the fallacies which librarians battle is that libraries exist for the sake of books. It is understandable that people make this mistake. For decades, libraries have been associated with books, but that doesn’t make it correct. Books are a means rather than an end. Libraries exist to promote access to information. For centuries, books were the best way to store and make accessible large amounts of information, hence the association between libraries and books.</description>
     </item>
     
     <item>

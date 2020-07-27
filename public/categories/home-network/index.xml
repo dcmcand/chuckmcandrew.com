@@ -18,7 +18,7 @@
       <pubDate>Fri, 11 Aug 2017 15:40:47 +0000</pubDate>
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2017/08/11/dns-on-my-mind/</guid>
-      <description>A recent email thread on the Tor relay operators email list has me thinking about DNS. DNS is like the phonebook of the internet. For example, when you go to https://techielibrarians.com, you don&amp;#8217;t actually go there. You go to 159.203.158.3 (IPv4) or 2604:a880:400:d0::14ab:4002 (IPv6). Obviously, it is far easier to remember techielibrarians.com than a whole string of numbers. That is why we have DNS. DNS is simple in concept, but can provide some complications in practice.</description>
+      <description>A recent email thread on the Tor relay operators email list has me thinking about DNS. DNS is like the phonebook of the internet. For example, when you go to https://techielibrarians.com, you don’t actually go there. You go to 159.203.158.3 (IPv4) or 2604:a880:400:d0::14ab:4002 (IPv6). Obviously, it is far easier to remember techielibrarians.com than a whole string of numbers. That is why we have DNS. DNS is simple in concept, but can provide some complications in practice.</description>
     </item>
     
     <item>
@@ -37,8 +37,7 @@ Once the modem was switched out, I went in and turned off every feature I could 
       <pubDate>Sun, 28 May 2017 19:19:37 +0000</pubDate>
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2017/05/28/the-less-than-typical-subject-for-a-library-tech-class/</guid>
-      <description>Every Tuesday, except the last Tuesday of the month, I offer a tech class on various subjects. Not unusually, the major OS platforms, like Windows, Apple iOS and OSX and now macOS, Android, etc., form the natural basis for the subject matter, since it relates to what most people are using and are familiar with in their daily lives. 
-I’ve even offered a class on home networking, but quickly realized during the class presentation that most people are not using their own routers, but are using Comcast Gateways which are hybrid modems and routers.</description>
+      <description>Every Tuesday, except the last Tuesday of the month, I offer a tech class on various subjects. Not unusually, the major OS platforms, like Windows, Apple iOS and OSX and now macOS, Android, etc., form the natural basis for the subject matter, since it relates to what most people are using and are familiar with in their daily lives. I’ve even offered a class on home networking, but quickly realized during the class presentation that most people are not using their own routers, but are using Comcast Gateways which are hybrid modems and routers.</description>
     </item>
     
   </channel>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>raspberrypi on Chuck McAndrew</title>
+    <link>https://chuckmcandrew.com/tags/raspberrypi/</link>
+    <description>Recent content in raspberrypi on Chuck McAndrew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
+    <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
+    <lastBuildDate>Mon, 27 Jul 2020 09:42:57 -0400</lastBuildDate>
+    
+	<atom:link href="https://chuckmcandrew.com/tags/raspberrypi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry Pi 4 Home Server</title>
+      <link>https://chuckmcandrew.com/post/2020/07/27/raspberry-pi-4-home-server/</link>
+      <pubDate>Mon, 27 Jul 2020 09:42:57 -0400</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/post/2020/07/27/raspberry-pi-4-home-server/</guid>
+      <description>I have been interested in setting up a home server for a while, and we have some other patrons who are interested in this too. I figured with the whole pandemic things, and working from home, this would be a good excuse.
+To start with, I ordered a Raspberry Pi 4 with 8GB of ram. This should have plenty of oomph for the things I want to do while still being silent and power efficient.</description>
+    </item>
+    
+  </channel>
+</rss>

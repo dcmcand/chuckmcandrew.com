@@ -36,7 +36,7 @@
       <pubDate>Fri, 17 Nov 2017 19:32:06 +0000</pubDate>
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2017/11/17/online-self-defense/</guid>
-      <description>Inspired by the Electronic Frontier Foundation&amp;#8217;s Surveillance Self Defense, I have put together a five part course covering privacy and security for people ranging from basic to advanced. Here are my notes and slides from the first of the classes. This covers basic topics that every computer user should be familiar with.
+      <description>Inspired by the Electronic Frontier Foundation’s Surveillance Self Defense, I have put together a five part course covering privacy and security for people ranging from basic to advanced. Here are my notes and slides from the first of the classes. This covers basic topics that every computer user should be familiar with.
 Everything shared on this site is made available under a creative commons share alike license so please feel free to use and modify this for your own library.</description>
     </item>
     
@@ -46,7 +46,7 @@ Everything shared on this site is made available under a creative commons share 
       <pubDate>Mon, 21 Aug 2017 23:39:24 +0000</pubDate>
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2017/08/21/haveibeenpwned-now-checks-passwords-too/</guid>
-      <description>There is a great tool called haveibeenpwned put out by Troy Hunt. You can enter an email address or username into this website, and it will tell you if it has been involved in a data breach. This is great so that you can quickly change your password for a compromised account. Troy now has a service that will check passwords against data breaches as well. If you don&amp;#8217;t want to put your password into a random third-party website, you can put in a sha1 hash of your password instead or you can download the entire 5.</description>
+      <description>There is a great tool called haveibeenpwned put out by Troy Hunt. You can enter an email address or username into this website, and it will tell you if it has been involved in a data breach. This is great so that you can quickly change your password for a compromised account. Troy now has a service that will check passwords against data breaches as well. If you don’t want to put your password into a random third-party website, you can put in a sha1 hash of your password instead or you can download the entire 5.</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@ Everything shared on this site is made available under a creative commons share 
       <pubDate>Fri, 11 Aug 2017 15:40:47 +0000</pubDate>
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2017/08/11/dns-on-my-mind/</guid>
-      <description>A recent email thread on the Tor relay operators email list has me thinking about DNS. DNS is like the phonebook of the internet. For example, when you go to https://techielibrarians.com, you don&amp;#8217;t actually go there. You go to 159.203.158.3 (IPv4) or 2604:a880:400:d0::14ab:4002 (IPv6). Obviously, it is far easier to remember techielibrarians.com than a whole string of numbers. That is why we have DNS. DNS is simple in concept, but can provide some complications in practice.</description>
+      <description>A recent email thread on the Tor relay operators email list has me thinking about DNS. DNS is like the phonebook of the internet. For example, when you go to https://techielibrarians.com, you don’t actually go there. You go to 159.203.158.3 (IPv4) or 2604:a880:400:d0::14ab:4002 (IPv6). Obviously, it is far easier to remember techielibrarians.com than a whole string of numbers. That is why we have DNS. DNS is simple in concept, but can provide some complications in practice.</description>
     </item>
     
     <item>
@@ -74,7 +74,7 @@ Everything shared on this site is made available under a creative commons share 
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2017/06/02/passwords/</guid>
       <description>The National Institute of Standards and Technology is a US Government organization which does many thing including defining password standards for the government. The recently published new recommendations which overturn some previously widely recommended practices. You can read the original publication at https://pages.nist.gov/800-63-3/sp800-63-3.html. Here is a breakdown of how to set a secure password policy according to NIST.
-Favor longer passwords NIST recommends a minimum password length of 8 characters.</description>
+Favor longer passwords NIST recommends a minimum password length of 8 characters. If you must have a maximum length, they recommend at least 64 characters.</description>
     </item>
     
     <item>

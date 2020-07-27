@@ -18,7 +18,7 @@
       <pubDate>Thu, 29 Mar 2018 14:24:05 +0000</pubDate>
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2018/03/29/docker-fun/</guid>
-      <description>In the past two months, I have attended the Public Library Association&amp;#8217;s annual conference, Code4Lib 2018, and my wife&amp;#8217;s grandmother turned 100. It has been a busy couple of months. Code4lib especially filled my head with lots of new ideas which I will right about more over the coming weeks.
+      <description>In the past two months, I have attended the Public Library Association’s annual conference, Code4Lib 2018, and my wife’s grandmother turned 100. It has been a busy couple of months. Code4lib especially filled my head with lots of new ideas which I will right about more over the coming weeks.
 On the first day of Code4lib we had half day workshops. The first workshop that I attended was on Docker and virtual machines with Ed Hill.</description>
     </item>
     
@@ -28,7 +28,7 @@ On the first day of Code4lib we had half day workshops. The first workshop that 
       <pubDate>Wed, 17 Jan 2018 14:44:33 +0000</pubDate>
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2018/01/17/retro-gaming-at-the-library/</guid>
-      <description>I have wanted to get some kind of gaming going at our library for a long time now. The problem with most modern games is that they assume that you have your own account and aren&amp;#8217;t really made for settings like public libraries. Enter the Retropie. This Raspberry Pi based system contains emulators which allow you to play roms from a whole host of retro game systems. This will allow us to offer gaming in a format more friendly to multiple users.</description>
+      <description>I have wanted to get some kind of gaming going at our library for a long time now. The problem with most modern games is that they assume that you have your own account and aren’t really made for settings like public libraries. Enter the Retropie. This Raspberry Pi based system contains emulators which allow you to play roms from a whole host of retro game systems. This will allow us to offer gaming in a format more friendly to multiple users.</description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@ On the first day of Code4lib we had half day workshops. The first workshop that 
       <pubDate>Fri, 17 Nov 2017 19:32:06 +0000</pubDate>
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2017/11/17/online-self-defense/</guid>
-      <description>Inspired by the Electronic Frontier Foundation&amp;#8217;s Surveillance Self Defense, I have put together a five part course covering privacy and security for people ranging from basic to advanced. Here are my notes and slides from the first of the classes. This covers basic topics that every computer user should be familiar with.
+      <description>Inspired by the Electronic Frontier Foundation’s Surveillance Self Defense, I have put together a five part course covering privacy and security for people ranging from basic to advanced. Here are my notes and slides from the first of the classes. This covers basic topics that every computer user should be familiar with.
 Everything shared on this site is made available under a creative commons share alike license so please feel free to use and modify this for your own library.</description>
     </item>
     
@@ -56,7 +56,7 @@ Everything shared on this site is made available under a creative commons share 
       <pubDate>Fri, 20 Oct 2017 15:06:48 +0000</pubDate>
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2017/10/20/tarsnap-online-backups-for-the-truly-paranoid/</guid>
-      <description>With Crashplan stopping its free consumer service, I have had to find a new backup solution for my home computers. After looking at many options, Tarsnap was what I settled on. They advertise themselves as &amp;#8220;Online backups for the truly paranoid&amp;#8221;. This is a true claim, and their security is certainly one thing that draws me to them, but they are also easy to use and quite inexpensive.
+      <description>With Crashplan stopping its free consumer service, I have had to find a new backup solution for my home computers. After looking at many options, Tarsnap was what I settled on. They advertise themselves as “Online backups for the truly paranoid”. This is a true claim, and their security is certainly one thing that draws me to them, but they are also easy to use and quite inexpensive.
 Tarsnap is built from the ground up to be secure.</description>
     </item>
     
@@ -75,7 +75,7 @@ Tarsnap is built from the ground up to be secure.</description>
       <pubDate>Mon, 21 Aug 2017 23:39:24 +0000</pubDate>
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2017/08/21/haveibeenpwned-now-checks-passwords-too/</guid>
-      <description>There is a great tool called haveibeenpwned put out by Troy Hunt. You can enter an email address or username into this website, and it will tell you if it has been involved in a data breach. This is great so that you can quickly change your password for a compromised account. Troy now has a service that will check passwords against data breaches as well. If you don&amp;#8217;t want to put your password into a random third-party website, you can put in a sha1 hash of your password instead or you can download the entire 5.</description>
+      <description>There is a great tool called haveibeenpwned put out by Troy Hunt. You can enter an email address or username into this website, and it will tell you if it has been involved in a data breach. This is great so that you can quickly change your password for a compromised account. Troy now has a service that will check passwords against data breaches as well. If you don’t want to put your password into a random third-party website, you can put in a sha1 hash of your password instead or you can download the entire 5.</description>
     </item>
     
     <item>
@@ -84,7 +84,7 @@ Tarsnap is built from the ground up to be secure.</description>
       <pubDate>Mon, 07 Aug 2017 16:27:48 +0000</pubDate>
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2017/08/07/open-source-software-and-the-values-of-librarianship/</guid>
-      <description>The Lebanon Public Libraries in Lebanon, NH run on free and open source software. This software accounts for about 95% of all the software that we use. This is not the norm for a library, but it should be. This is software that is in agreement with the values of librarianship. It allows us as librarians to serve our patron&amp;#8217;s without the compromises that come from proprietary software.
+      <description>The Lebanon Public Libraries in Lebanon, NH run on free and open source software. This software accounts for about 95% of all the software that we use. This is not the norm for a library, but it should be. This is software that is in agreement with the values of librarianship. It allows us as librarians to serve our patron’s without the compromises that come from proprietary software.
 There are many benefits tofree and open source software.</description>
     </item>
     
@@ -103,7 +103,7 @@ There are many benefits tofree and open source software.</description>
       <pubDate>Fri, 07 Jul 2017 20:48:17 +0000</pubDate>
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2017/07/07/buying-computers-for-your-library/</guid>
-      <description>This topic seems to come up a lot so I thought that I would write a quick post on things to look for when you buy computers for your library. I will address some of the things that I take into consideration when buying items. However, I can&amp;#8217;t tell you how to weight these considerations. You know your library and patrons best.
+      <description>This topic seems to come up a lot so I thought that I would write a quick post on things to look for when you buy computers for your library. I will address some of the things that I take into consideration when buying items. However, I can’t tell you how to weight these considerations. You know your library and patrons best.
 New, refurbished, or used Obviously we all like getting new gear, and as I have argued before, computers are as important to libraries as books these days.</description>
     </item>
     
@@ -160,7 +160,7 @@ Libraries care about our patron experience. We want all our services to be easy 
       <pubDate>Wed, 22 Feb 2017 15:06:30 +0000</pubDate>
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2017/02/22/the-importance-of-it-training-in-libraries/</guid>
-      <description>One of the fallacies which librarians battle is that libraries exist for the sake of books. It is understandable that people make this mistake. For decades, libraries have been associated with books, but that doesn&amp;#8217;t make it correct. Books are a means rather than an end. Libraries exist to promote access to information. For centuries, books were the best way to store and make accessible large amounts of information, hence the association between libraries and books.</description>
+      <description>One of the fallacies which librarians battle is that libraries exist for the sake of books. It is understandable that people make this mistake. For decades, libraries have been associated with books, but that doesn’t make it correct. Books are a means rather than an end. Libraries exist to promote access to information. For centuries, books were the best way to store and make accessible large amounts of information, hence the association between libraries and books.</description>
     </item>
     
     <item>

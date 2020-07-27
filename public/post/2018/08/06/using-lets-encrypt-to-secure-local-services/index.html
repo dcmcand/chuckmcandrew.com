@@ -57,9 +57,9 @@
     "name" : "Chuck McAndrew"
   },
   "headline": "Using Let’s Encrypt to secure local services",
-  "description" : "Hopefully, at this point everyone has secured all their public facing services with HTTPS. Let\x26rsquo;s Encrypt makes this quick and easy to do (not to mention free!). What about local services that are only available on your lan though? This is tougher because normal verification methods don\x26rsquo;t work, yet it is still important. Part of a defense in depth strategy is to always assume you are in a hostile environment, and with all the router vulnerabilities, Universal Plug and Play problems, and issues such as DNS rebinding attacks, it is not a good assumption that there are no malicious actors on your lan.",
+  "description" : "Hopefully, at this point everyone has secured all their public facing services with HTTPS. Let\u0026rsquo;s Encrypt makes this quick and easy to do (not to mention free!). What about local services that are only available on your lan though? This is tougher because normal verification methods don\u0026rsquo;t work, yet it is still important. Part of a defense in depth strategy is to always assume you are in a hostile environment, and with all the router vulnerabilities, Universal Plug and Play problems, and issues such as DNS rebinding attacks, it is not a good assumption that there are no malicious actors on your lan.",
   "inLanguage" : "en",
-  "wordCount":  618 ,
+  "wordCount":  615 ,
   "datePublished" : "2018-08-06T23:05:12",
   "dateModified" : "2018-08-06T23:05:12",
   "image" : "https:\/\/chuckmcandrew.com\/img\/logo-small.png",
@@ -89,7 +89,7 @@
   <meta name="twitter:description" content="Hopefully, at this point everyone has secured all their public facing services with HTTPS. Let&rsquo;s Encrypt makes this quick and easy to do (not to mention free!). What about local services that …">
   <meta name="twitter:image" content="https://chuckmcandrew.com/img/logo-small.png" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.59.1" />
+  <meta name="generator" content="Hugo 0.75.0-DEV" />
   <link rel="alternate" href="https://chuckmcandrew.com/index.xml" type="application/rss+xml" title="Chuck McAndrew"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://chuckmcandrew.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -261,16 +261,11 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        
-
-<p>Hopefully, at this point everyone has secured all their public facing services with <a href="https://techielibrarians.com/index.php/2017/04/24/the-importance-of-https/">HTTPS</a>. Let&rsquo;s Encrypt makes this quick and easy to do (not to mention free!). What about local services that are only available on your lan though? This is tougher because normal verification methods don&rsquo;t work, yet it is still important. Part of a defense in depth strategy is to always assume you are in a hostile environment, and with all the router vulnerabilities, Universal Plug and Play problems, and issues such as DNS rebinding attacks, it is not a good assumption that there are no malicious actors on your lan.</p>
-
+        <p>Hopefully, at this point everyone has secured all their public facing services with <a href="https://techielibrarians.com/index.php/2017/04/24/the-importance-of-https/">HTTPS</a>. Let&rsquo;s Encrypt makes this quick and easy to do (not to mention free!). What about local services that are only available on your lan though? This is tougher because normal verification methods don&rsquo;t work, yet it is still important. Part of a defense in depth strategy is to always assume you are in a hostile environment, and with all the router vulnerabilities, Universal Plug and Play problems, and issues such as DNS rebinding attacks, it is not a good assumption that there are no malicious actors on your lan.</p>
 <p>To secure your local resources there are a few things that you need.</p>
-
 <ol>
 <li>A domain name - This domain name must be a real domain that you own. For this blog I&rsquo;ll use example.com.</li>
 <li>Publicly hosted DNS with a provider that Certbot Supports. DNS providers that I know have plugins for Certbot are:
-
 <ol>
 <li><a href="https://www.ovh.com/world/">OVH DNS</a></li>
 <li><a href="https://www.luadns.com/">LuaDNS</a></li>
@@ -284,52 +279,38 @@
 <li><a href="https://manual.sakura.ad.jp/cloud/appliance/dns/index.html">Sakura Cloud</a></li>
 <li><a href="https://www.digitalocean.com/">Digital Ocean</a></li>
 <li><a href="https://www.gehirn.jp/dns/">Gehirn</a></li>
-</ol></li>
+</ol>
+</li>
 <li>A <a href="https://techielibrarians.com/index.php/2017/08/11/dns-on-my-mind/">local DNS resolver</a> that you can use to serve your internal subdomain.</li>
 </ol>
-
 <p>Once you have these components in place, you can get started.</p>
-
 <h2 id="setup-an-internal-subdomain">Setup an internal subdomain</h2>
-
 <p>The first step is to setup an internal subdomain. If I own example.com, I might use local.example.com for local resources. I might host a <a href="https://nextcloud.com/">NextCloud</a>  instance at nextcloud.local.example.com, an internal wiki at wiki.local.example.com, and maybe a local copy of <a href="https://about.gitlab.com/">Gitlab</a> at gitlab.local.example.com for extra geek points. For each of these services, you&rsquo;ll need to create DNS records on your local DNS server so that you computers can find them. Make sure they all have static IP addresses (or static DHCP reservations which is my preferred way to do it) and create an A record for each (and an AAAA record if you use IPv6).</p>
-
-<h2 id="get-credentials-to-use-your-dns-provider-s-api">Get credentials to use your DNS provider&rsquo;s API</h2>
-
+<h2 id="get-credentials-to-use-your-dns-providers-api">Get credentials to use your DNS provider&rsquo;s API</h2>
 <p>I use AWS Route53 to host my DNS. It costs $1/month, but is very good. I have been nothing but happy with their service. Instructions for this part will vary depending on what provider you use. For AWS, you need to create an IAM role that has the following permissions:</p>
-
 <ol>
 <li>route53:GetChange - all resources</li>
 <li>route53: ListHostedZones - all resources</li>
 <li>route53:ListResourceRecordSets - all resources</li>
 <li>route53:ChangeResourceRecordSets - arn of example.com</li>
 </ol>
-
 <p>After setting up this user, click on &ldquo;Create Security Credentials&rdquo; and you will be given a Access Key ID and a Secret Key. You need to save these to your server under /root/.aws/credentials.</p>
-
 <h2 id="download-and-install-certbot-and-the-plugin-for-your-dns-provider-and-webserver">Download and install Certbot and the plugin for your DNS provider and webserver.</h2>
-
 <p>In this case for me, I had to install python2-certbot, python2-certbot-apache and python2-certbot-dns-route53. I am running this on a Centos7 server. Choose your packages as needed.</p>
-
 <h2 id="run-certbot">Run Certbot</h2>
-
 <p>for example, to run on your wiki host, you would run:</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo certbot --installer<span class="o">=</span>apache --dns-route53 -d wiki.local.example.com</code></pre></div>
-<p>This will automatically go out and create a dns record on your dns provider (assuming you got the credentials formatted correctly), verify them, and then clean up the record for you. You get a legitimate, verified, Let&rsquo;s Encrypt certificate without ever exposing that server to the internet.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo certbot --installer<span class="o">=</span>apache --dns-route53 -d wiki.local.example.com
 
+</code></pre></div><p>This will automatically go out and create a dns record on your dns provider (assuming you got the credentials formatted correctly), verify them, and then clean up the record for you. You get a legitimate, verified, Let&rsquo;s Encrypt certificate without ever exposing that server to the internet.</p>
 <h2 id="automate-renewals">Automate renewals</h2>
-
 <p>Add a renewal check to your root user&rsquo;s crontab. This command will check twice a day it renewals are due. For extra credit, forward root&rsquo;s mail to your email address and you&rsquo;ll get the results of these renewals in your inbox.</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo crontab -e
 
-<span class="m">0</span> <span class="m">0</span>,12 <span class="se">\*</span> <span class="se">\*</span> <span class="se">\*</span> python -c <span class="s1">&#39;import random; import time; time.sleep(random.random() \* 3600)&#39;</span> <span class="o">&amp;&amp;</span> certbot renew</code></pre></div>
-<p>That&rsquo;s all there is to it. Now you have secure HTTPS that browsers trust by default on local services. No need to mess around with self-signed certs or insecure connections.</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
+<span class="m">0</span> 0,12 <span class="se">\*</span> <span class="se">\*</span> <span class="se">\*</span> python -c <span class="s1">&#39;import random; import time; time.sleep(random.random() \* 3600)&#39;</span> <span class="o">&amp;&amp;</span> certbot renew
+</code></pre></div><p>That&rsquo;s all there is to it. Now you have secure HTTPS that browsers trust by default on local services. No need to mess around with self-signed certs or insecure connections.</p>
+<p> </p>
+<p> </p>
+<p> </p>
 
 
         
@@ -404,7 +385,7 @@
 
           &nbsp;&bull;&nbsp;&copy;
           
-            2019
+            2020
           
 
           
@@ -414,7 +395,7 @@
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="https://gohugo.io">Hugo v0.59.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          <a href="https://gohugo.io">Hugo v0.75.0-DEV</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
           
         </p>
       </div>

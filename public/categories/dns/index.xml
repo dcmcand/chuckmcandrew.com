@@ -27,7 +27,7 @@
       <pubDate>Fri, 11 Aug 2017 15:40:47 +0000</pubDate>
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/post/2017/08/11/dns-on-my-mind/</guid>
-      <description>A recent email thread on the Tor relay operators email list has me thinking about DNS. DNS is like the phonebook of the internet. For example, when you go to https://techielibrarians.com, you don&amp;#8217;t actually go there. You go to 159.203.158.3 (IPv4) or 2604:a880:400:d0::14ab:4002 (IPv6). Obviously, it is far easier to remember techielibrarians.com than a whole string of numbers. That is why we have DNS. DNS is simple in concept, but can provide some complications in practice.</description>
+      <description>A recent email thread on the Tor relay operators email list has me thinking about DNS. DNS is like the phonebook of the internet. For example, when you go to https://techielibrarians.com, you don’t actually go there. You go to 159.203.158.3 (IPv4) or 2604:a880:400:d0::14ab:4002 (IPv6). Obviously, it is far easier to remember techielibrarians.com than a whole string of numbers. That is why we have DNS. DNS is simple in concept, but can provide some complications in practice.</description>
     </item>
     
   </channel>

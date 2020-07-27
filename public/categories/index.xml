@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>chuck@chuckmcandrew.com (Chuck McAndrew)</managingEditor>
     <webMaster>chuck@chuckmcandrew.com (Chuck McAndrew)</webMaster>
-    <lastBuildDate>Thu, 27 Jun 2019 16:47:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2020 09:42:57 -0400</lastBuildDate>
     
 	<atom:link href="https://chuckmcandrew.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Self Hosted</title>
+      <link>https://chuckmcandrew.com/categories/self-hosted/</link>
+      <pubDate>Mon, 27 Jul 2020 09:42:57 -0400</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/categories/self-hosted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technology instruction</title>
+      <link>https://chuckmcandrew.com/categories/technology-instruction/</link>
+      <pubDate>Mon, 27 Jul 2020 09:42:57 -0400</pubDate>
+      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
+      <guid>https://chuckmcandrew.com/categories/technology-instruction/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>security</title>
@@ -18,15 +36,6 @@
       <pubDate>Thu, 27 Jun 2019 16:47:05 +0000</pubDate>
       <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
       <guid>https://chuckmcandrew.com/categories/security/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Technology instruction</title>
-      <link>https://chuckmcandrew.com/categories/technology-instruction/</link>
-      <pubDate>Thu, 27 Jun 2019 16:47:05 +0000</pubDate>
-      <author>chuck@chuckmcandrew.com (Chuck McAndrew)</author>
-      <guid>https://chuckmcandrew.com/categories/technology-instruction/</guid>
       <description></description>
     </item>
     

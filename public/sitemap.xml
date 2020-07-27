@@ -4,13 +4,53 @@
   
   <url>
     <loc>https://chuckmcandrew.com/</loc>
-    <lastmod>2019-06-27T16:47:05+00:00</lastmod>
+    <lastmod>2020-07-27T09:42:57-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://chuckmcandrew.com/categories/</loc>
-    <lastmod>2019-06-27T16:47:05+00:00</lastmod>
+    <lastmod>2020-07-27T09:42:57-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chuckmcandrew.com/tags/homelab/</loc>
+    <lastmod>2020-07-27T09:42:57-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chuckmcandrew.com/post/</loc>
+    <lastmod>2020-07-27T09:42:57-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chuckmcandrew.com/post/2020/07/27/raspberry-pi-4-home-server/</loc>
+    <lastmod>2020-07-27T09:42:57-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chuckmcandrew.com/tags/raspberrypi/</loc>
+    <lastmod>2020-07-27T09:42:57-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chuckmcandrew.com/categories/self-hosted/</loc>
+    <lastmod>2020-07-27T09:42:57-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chuckmcandrew.com/tags/selfhosted/</loc>
+    <lastmod>2020-07-27T09:42:57-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chuckmcandrew.com/tags/</loc>
+    <lastmod>2020-07-27T09:42:57-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chuckmcandrew.com/categories/technology-instruction/</loc>
+    <lastmod>2020-07-27T09:42:57-04:00</lastmod>
   </url>
   
   <url>
@@ -24,22 +64,7 @@
   </url>
   
   <url>
-    <loc>https://chuckmcandrew.com/post/</loc>
-    <lastmod>2019-06-27T16:47:05+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chuckmcandrew.com/categories/security/</loc>
-    <lastmod>2019-06-27T16:47:05+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chuckmcandrew.com/tags/</loc>
-    <lastmod>2019-06-27T16:47:05+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chuckmcandrew.com/categories/technology-instruction/</loc>
     <lastmod>2019-06-27T16:47:05+00:00</lastmod>
   </url>
   

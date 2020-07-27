@@ -59,7 +59,7 @@
   "headline": "Amazon Web Services",
   "description" : "Notice anything different about this site? Hopefully the answer is no. My library is transitioning from Digital Ocean to Amazon Web Services for our web presence and this site is our test case. We were very happy with Digital Ocean as a host, but Tech Soup offers $2000 in AWS credit for $175 (or $80 if you belong to their Boost program). We had been averaging somewhere around $30\/month for Digital Ocean, so if we assume that Amazon is close on their pricing (which may or may not be a justified assumption), we stand to save $185 just from making that switch.",
   "inLanguage" : "en",
-  "wordCount":  954 ,
+  "wordCount":  953 ,
   "datePublished" : "2017-11-30T16:42:38",
   "dateModified" : "2017-11-30T16:42:38",
   "image" : "https:\/\/chuckmcandrew.com\/img\/logo-small.png",
@@ -89,7 +89,7 @@
   <meta name="twitter:description" content="Notice anything different about this site? Hopefully the answer is no. My library is transitioning from Digital Ocean to Amazon Web Services for our web presence and this site is our test case. We …">
   <meta name="twitter:image" content="https://chuckmcandrew.com/img/logo-small.png" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.59.1" />
+  <meta name="generator" content="Hugo 0.75.0-DEV" />
   <link rel="alternate" href="https://chuckmcandrew.com/index.xml" type="application/rss+xml" title="Chuck McAndrew"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://chuckmcandrew.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -261,25 +261,20 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>Notice anything different about this site? Hopefully the answer is no. My library is transitioning from Digital Ocean to Amazon Web Services for our web presence and this site is our test case. We were very happy with Digital Ocean as a host, but Tech Soup offers <a href="http://www.techsoup.org/amazon-web-services">$2000 in AWS credit</a> for $175 (or $80 if you belong to their <a href="http://www.techsoup.org/boost">Boost</a> program). We had been averaging somewhere around $30/month for Digital Ocean, so if we assume that Amazon is close on their pricing (which may or may not be a justified assumption), we stand to save $185 just from making that switch. However, keep in mind that we don&#8217;t just get equivalent web hosting for less money, we get $2000 in credit that is good for 12 months. That opens the door for us to expand our web services at no cost. I am not sure what this will look like yet. I am still trying to wrap my head around the core services that AWS offers (and boy, there is a lot to AWS), but I am excited by the possibilities.</p>
-
-<p>Maybe we will move our shared drive to the cloud and make it accessible through something like <a href="https://nextcloud.com/">NextCloud </a>so that our staff can access files from anywhere. Maybe we will move our backup services to AWS so that our backups aren&#8217;t in physical danger. Maybe we will host a number of geographically distributed vpn servers allowing our patrons to connect to the internet without their ISP&#8217;s snooping on them. Maybe we will make our whole web infrastructure auto scaling, geographically redundant and highly available. Maybe we will use them exactly like we have been using Digital Ocean, but at half the price thanks to Tech Soup. I am not sure yet, but there are some neat things that I could do.</p>
-
+        <p>Notice anything different about this site? Hopefully the answer is no. My library is transitioning from Digital Ocean to Amazon Web Services for our web presence and this site is our test case. We were very happy with Digital Ocean as a host, but Tech Soup offers <a href="http://www.techsoup.org/amazon-web-services">$2000 in AWS credit</a> for $175 (or $80 if you belong to their <a href="http://www.techsoup.org/boost">Boost</a> program). We had been averaging somewhere around $30/month for Digital Ocean, so if we assume that Amazon is close on their pricing (which may or may not be a justified assumption), we stand to save $185 just from making that switch. However, keep in mind that we don’t just get equivalent web hosting for less money, we get $2000 in credit that is good for 12 months. That opens the door for us to expand our web services at no cost. I am not sure what this will look like yet. I am still trying to wrap my head around the core services that AWS offers (and boy, there is a lot to AWS), but I am excited by the possibilities.</p>
+<p>Maybe we will move our shared drive to the cloud and make it accessible through something like <a href="https://nextcloud.com/">NextCloud </a>so that our staff can access files from anywhere. Maybe we will move our backup services to AWS so that our backups aren’t in physical danger. Maybe we will host a number of geographically distributed vpn servers allowing our patrons to connect to the internet without their ISP’s snooping on them. Maybe we will make our whole web infrastructure auto scaling, geographically redundant and highly available. Maybe we will use them exactly like we have been using Digital Ocean, but at half the price thanks to Tech Soup. I am not sure yet, but there are some neat things that I could do.</p>
 <p>For this website, I decided to keep things simple (remember I am still learning). I have an <a href="https://aws.amazon.com/ec2/">ec2</a> instance as my webserver connecting to an <a href="https://aws.amazon.com/rds/">RDS</a> instance for my database. Separating my database onto a different host is something that I have wanted to do for a while and this was a good chance. This increases my flexibility as far as web hosts and backups among other things. The procedure to transfer my website was not terribly difficult, but it did have a couple of things to pay attention to.</p>
-
 <ol>
-<li>Setup your RDS instance and ec2 instance &#8211; Amazon has lots of tutorials. Before I transferred anything I went through a couple of their tutorials such as <a href="https://aws.amazon.com/getting-started/projects/build-wordpress-website/?c_4">Deploying a wordpress site</a>. Although I didn&#8217;t choose to do this on Elastic Beanstalk like the tutorial suggests, going through the tutorial first got me acquainted with important concepts like security groups.</li>
-<li>Backup your database from the old host and transfer it to your new RDS instance &#8211; I basically followed <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Procedural.Importing.NonRDSRepl.html">this</a> guide to transfer my database. Since I already had my ec2 instance that I was going to use for my webserver up, I was able to log into it and use it to transfer the data to my new host.</li>
-<li>Transfer your website files to the new host &#8211; For this step, I just made a zip of all my website files from the old host and downloaded it. I then uploaded them to my new host, unzipped them and moved them to the proper place on the new host. Where the proper place is depends on which webserver and operating system you use. In my case, using Apache and Centos 7 that is /var/www/html/</li>
+<li>Setup your RDS instance and ec2 instance – Amazon has lots of tutorials. Before I transferred anything I went through a couple of their tutorials such as <a href="https://aws.amazon.com/getting-started/projects/build-wordpress-website/?c_4">Deploying a wordpress site</a>. Although I didn’t choose to do this on Elastic Beanstalk like the tutorial suggests, going through the tutorial first got me acquainted with important concepts like security groups.</li>
+<li>Backup your database from the old host and transfer it to your new RDS instance – I basically followed <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Procedural.Importing.NonRDSRepl.html">this</a> guide to transfer my database. Since I already had my ec2 instance that I was going to use for my webserver up, I was able to log into it and use it to transfer the data to my new host.</li>
+<li>Transfer your website files to the new host – For this step, I just made a zip of all my website files from the old host and downloaded it. I then uploaded them to my new host, unzipped them and moved them to the proper place on the new host. Where the proper place is depends on which webserver and operating system you use. In my case, using Apache and Centos 7 that is /var/www/html/</li>
 <li>Setup the database connection. Since we are using a external database now, I had to edit my wp-config file and add the new database connection information. I also always leave selinux enabled so I had to set httpd_can_network_connect and httpd_unified to 1 using the sebool command. This allows the webserver to make outside connections and allows wordpress to auto update.</li>
-<li>Activate IPv6 for your default VPC &#8211; This will allow IPv6 Connections to your web server. Again, AWS has a <a href="https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpc-migrate-ipv6.html">guide</a> for this. Basically, you request an IPv6 delegation (you get a /56) and you assign subnets (/64) to each of your VPC subnets. This allows you to assign an IPv6 address to your ec2 instance. Under your routing table, make sure that you have added ::/0 to your internet gateway to allow IPv6 to be publicly routed. Finally, make sure IPv6 is enabled on your ec2 instance&#8217;s operating system. In my case it wasn&#8217;t and it drove me a little crazy figuring out why I couldn&#8217;t reach my web server over IPv6.</li>
-<li>Change your DNS to point at your new webserver &#8211; After you have verified that your new webserver is functional, point your dns to the new webserver and wait for this to propagate.</li>
-<li>Use <a href="https://certbot.eff.org/">Certbot</a> (Let&#8217;s Encrypt) to generate new SSL certs &#8211; Once DNS is pointing to your new server you can run certbot to generate ssl certificates for your site. It will ask you if you want to redirect all traffic to https. Unless you have a compelling reason not to, you should say yes. Make sure to add a cron job to run certbot renew once or twice a day. This will ensure that your certs never expire. It won&#8217;t actually renew them unless they need it though.</li>
+<li>Activate IPv6 for your default VPC – This will allow IPv6 Connections to your web server. Again, AWS has a <a href="https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpc-migrate-ipv6.html">guide</a> for this. Basically, you request an IPv6 delegation (you get a /56) and you assign subnets (/64) to each of your VPC subnets. This allows you to assign an IPv6 address to your ec2 instance. Under your routing table, make sure that you have added ::/0 to your internet gateway to allow IPv6 to be publicly routed. Finally, make sure IPv6 is enabled on your ec2 instance’s operating system. In my case it wasn’t and it drove me a little crazy figuring out why I couldn’t reach my web server over IPv6.</li>
+<li>Change your DNS to point at your new webserver – After you have verified that your new webserver is functional, point your dns to the new webserver and wait for this to propagate.</li>
+<li>Use <a href="https://certbot.eff.org/">Certbot</a> (Let’s Encrypt) to generate new SSL certs – Once DNS is pointing to your new server you can run certbot to generate ssl certificates for your site. It will ask you if you want to redirect all traffic to https. Unless you have a compelling reason not to, you should say yes. Make sure to add a cron job to run certbot renew once or twice a day. This will ensure that your certs never expire. It won’t actually renew them unless they need it though.</li>
 </ol>
-
-<p>I wouldn&#8217;t call this a simple transition. I spent a couple of days getting familiar with AWS&#8217;s jargon and running through tutorials before making this transition. I will say that Amazon has done a good job with having lots of documentation so you can do all this learning on your own. As I learn more, I should be able to do cooler stuff that really leverages the advantages of a cloud environment.</p>
-
-<p>&nbsp;</p>
+<p>I wouldn’t call this a simple transition. I spent a couple of days getting familiar with AWS’s jargon and running through tutorials before making this transition. I will say that Amazon has done a good job with having lots of documentation so you can do all this learning on your own. As I learn more, I should be able to do cooler stuff that really leverages the advantages of a cloud environment.</p>
+<p> </p>
 
 
         
@@ -354,7 +349,7 @@
 
           &nbsp;&bull;&nbsp;&copy;
           
-            2019
+            2020
           
 
           
@@ -364,7 +359,7 @@
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="https://gohugo.io">Hugo v0.59.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          <a href="https://gohugo.io">Hugo v0.75.0-DEV</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
           
         </p>
       </div>

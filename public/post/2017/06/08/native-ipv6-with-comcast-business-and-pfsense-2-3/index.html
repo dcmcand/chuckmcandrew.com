@@ -46,7 +46,7 @@ Once the modem was switched out, I went in and turned off every feature I could 
         "position": 3,
         "item": {
           "@id": "https:\/\/chuckmcandrew.com\/post\/2017\/06\/08\/native-ipv6-with-comcast-business-and-pfsense-2-3\/",
-          "name": "Native ipv6 with comcast business and pf sense 2.3"
+          "name": "Native i pv6 with comcast business and pf sense 2.3"
         }
     }]
 }
@@ -58,7 +58,7 @@ Once the modem was switched out, I went in and turned off every feature I could 
     "name" : "Chuck McAndrew"
   },
   "headline": "Native IPv6 with Comcast Business and pfSense 2.3",
-  "description" : "Our ISP, Comcast, has recently rolled out native IPv6 support in our area, so this week I decided to set up our library to be dual stack. The first thing that had to happen was getting a Comcast tech to change out our SMC modem for a Netgear modem. According to Comcast tech support, the SMC doesn\x26rsquo;t support IPv6.\nOnce the modem was switched out, I went in and turned off every feature I could in the modem.",
+  "description" : "Our ISP, Comcast, has recently rolled out native IPv6 support in our area, so this week I decided to set up our library to be dual stack. The first thing that had to happen was getting a Comcast tech to change out our SMC modem for a Netgear modem. According to Comcast tech support, the SMC doesn\u0026rsquo;t support IPv6.\nOnce the modem was switched out, I went in and turned off every feature I could in the modem.",
   "inLanguage" : "en",
   "wordCount":  758 ,
   "datePublished" : "2017-06-08T22:00:10",
@@ -91,7 +91,7 @@ Once the modem was switched out, I went in and turned off every feature I could 
   <meta name="twitter:description" content="Our ISP, Comcast, has recently rolled out native IPv6 support in our area, so this week I decided to set up our library to be dual stack. The first thing that had to happen was getting a Comcast tech …">
   <meta name="twitter:image" content="https://chuckmcandrew.com/img/logo-small.png" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.59.1" />
+  <meta name="generator" content="Hugo 0.75.0-DEV" />
   <link rel="alternate" href="https://chuckmcandrew.com/index.xml" type="application/rss+xml" title="Chuck McAndrew"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://chuckmcandrew.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -264,52 +264,29 @@ Once the modem was switched out, I went in and turned off every feature I could 
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
         <p>Our ISP, Comcast, has recently rolled out native IPv6 support in our area, so this week I decided to set up our library to be dual stack. The first thing that had to happen was getting a Comcast tech to change out our SMC modem for a Netgear modem. According to Comcast tech support, the SMC doesn&rsquo;t support IPv6.</p>
-
 <p>Once the modem was switched out, I went in and turned off every feature I could in the modem. No DHCP, no firewall, etc. This is because we use a pfSense firewall in our library. Apparently you can&rsquo;t do a true bridge mode with Comcast, but this is the best approximation. Call it a fake bridge mode.</p>
-
 <p>Next to setup IPv6 I used the following settings. I enabled User defined prefix, but left everything default under it. I also enabled DHCPv6 and Rapid Commit. I left the rest unchecked. I can&rsquo;t tell you exactly what each option does, because according to Comcast tech support there is no documentation to consult on this modem. Frustrating! However, after much trial and error and lost internet connection, these settings worked for me. Hit apply and your modem will reboot. Then move to your firewall.</p>
-
-<p><img class="alignnone size-full wp-image-123" src="/wp-content/uploads/2017/06/comcast.png" alt="" width="727" height="555" srcset="https://techielibrarians.com/wp-content/uploads/2017/06/comcast.png 727w, https://techielibrarians.com/wp-content/uploads/2017/06/comcast-300x229.png 300w" sizes="(max-width: 727px) 100vw, 727px" /></p>
-
+<p><!-- raw HTML omitted --></p>
 <p>On your firewall go to your Wan interface (which I creatively called &ldquo;Comcast&rdquo;)</p>
-
 <p>Under the IPv6 Configuration setting select DHCPv6.</p>
-
-<p><img class="alignnone size-large wp-image-124" src="/wp-content/uploads/2017/06/pfsense1-1024x497.png" alt="" width="688" height="334" srcset="https://techielibrarians.com/wp-content/uploads/2017/06/pfsense1-1024x497.png 1024w, https://techielibrarians.com/wp-content/uploads/2017/06/pfsense1-300x145.png 300w, https://techielibrarians.com/wp-content/uploads/2017/06/pfsense1-768x372.png 768w, https://techielibrarians.com/wp-content/uploads/2017/06/pfsense1.png 1194w" sizes="(max-width: 688px) 100vw, 688px" /></p>
-
+<p><!-- raw HTML omitted --></p>
 <p>Below on the same page, under the DHCP client configuration select the following options. There are is one gotcha here. Apparently, their netgear modem ignores the requested delegation size if it is larger than a /60 and will only give you a /60 or a /64. Comcast tells you they give you a /56, but that resulted in failure, so request a /60 and everything will be happy. This does limit you to 16 subnets, but that was plenty for me.</p>
-
-<p><img class="alignnone size-large wp-image-125" src="/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-19-55-1024x432.png" alt="" width="688" height="290" srcset="https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-19-55-1024x432.png 1024w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-19-55-300x127.png 300w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-19-55-768x324.png 768w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-19-55.png 1147w" sizes="(max-width: 688px) 100vw, 688px" /></p>
-
+<p><!-- raw HTML omitted --></p>
 <p>Next move on to your LAN interface, in this case call LebStaff. Under IPv6 Configuration Type select &ldquo;Track Interface&rdquo;</p>
-
-<p><img class="alignnone size-large wp-image-126" src="/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-20-36-1024x514.png" alt="" width="688" height="345" srcset="https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-20-36-1024x514.png 1024w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-20-36-300x151.png 300w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-20-36-768x386.png 768w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-20-36.png 1143w" sizes="(max-width: 688px) 100vw, 688px" /></p>
-
+<p><!-- raw HTML omitted --></p>
 <p>Below on the same page select your WAN interface as the IPv6 Interface and set the IPv6 prefix ID. This is a hex digit (0-9 or a-f for a total of 16 options) that will identify your /64 subnet.</p>
-
-<p><img class="alignnone size-large wp-image-127" src="/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-20-49-1024x209.png" alt="" width="688" height="140" srcset="https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-20-49-1024x209.png 1024w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-20-49-300x61.png 300w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-20-49-768x156.png 768w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-20-49.png 1149w" sizes="(max-width: 688px) 100vw, 688px" /></p>
-
+<p><!-- raw HTML omitted --></p>
 <p>Do this for each LAN interface you have. Next go under the Services tab and select DHCPv6 Server/RA</p>
-
 <p>You can select whatever you wish under this section. I chose the leave the DHCPv6 server off and set my router announcement to unmanaged. One of the cool features of IPv6 is that clients can configure their own IP addresses. Using unmanaged for your router advertisement tells clients to do this. I also selected high for my router priority. There shouldn&rsquo;t be any other routers on this subnet, but if there were I wouldn&rsquo;t want them overriding this one.</p>
-
-<p><img class="alignnone size-large wp-image-128" src="/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-21-31-1024x220.png" alt="" width="688" height="148" srcset="https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-21-31-1024x220.png 1024w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-21-31-300x64.png 300w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-21-31-768x165.png 768w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-21-31.png 1184w" sizes="(max-width: 688px) 100vw, 688px" /></p>
-
+<p><!-- raw HTML omitted --></p>
 <p>Next go into your firewall rules and add a rule to pass IPv6 traffic on all of your LAN interfaces (but not on your WAN interface). If you miss this step you will be very frustrated when you can&rsquo;t connect to any IPv6 resources.</p>
-
-<p><img class="alignnone size-large wp-image-134" src="/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-17-16-33-1024x37.png" alt="" width="688" height="25" srcset="https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-17-16-33-1024x37.png 1024w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-17-16-33-300x11.png 300w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-17-16-33-768x28.png 768w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-17-16-33.png 1164w" sizes="(max-width: 688px) 100vw, 688px" /></p>
-
+<p><!-- raw HTML omitted --></p>
 <p>The next step is to go to the routing menu under the system tab. Edit the automatically created DHCPv6 gateway and set the monitor IP address to an IPv6 only website. In this case I used ipv6.google.com. If you don&rsquo;t do this step, your gateway will always show as down even when it is up. The reason for this is that the Netgear modem doesn&rsquo;t respond to pings, so when pfSense tries to ping the gateway, it gets no response and reports the gateway as down. ipv6.google.com does respond to pings, but is only accessible over IPv6, so if the IPv6 gateway is in fact down, ipv6.google.com will not be available.</p>
-
-<p><img class="alignnone size-large wp-image-130" src="/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-22-36-1024x799.png" alt="" width="688" height="537" srcset="https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-22-36-1024x799.png 1024w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-22-36-300x234.png 300w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-22-36-768x599.png 768w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-22-36.png 1153w" sizes="(max-width: 688px) 100vw, 688px" /></p>
-
+<p><!-- raw HTML omitted --></p>
 <p>Finally reboot your router, when it comes back up, you should see your new gateway online and that all of your lan interfaces have IPv6 addresses in the subnet that you specified. Although I have blurred my IP&rsquo;s, you can see what it will look like. The short blurs are IPv4 and the long blurs are IPv6. One quick note, I have found that I have to go into my WAN interface and click save after rebooting my router. If I don&rsquo;t do this, I won&rsquo;t have internet connectivity on any of my lan interfaces (though I will be able to ping out from the router). I don&rsquo;t know if this is a Comcast modem issue or a firewall issue, but I didn&rsquo;t have this issue until they changed out my modem, so I have my suspicions.</p>
-
-<p><img class="alignnone size-full wp-image-129" src="/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-22-03.png" alt="" width="559" height="440" srcset="https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-22-03.png 559w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-14-22-03-300x236.png 300w" sizes="(max-width: 559px) 100vw, 559px" /></p>
-
-<p>Now go to <a href="http://test-ipv6.com/">http://test-ipv6.com/</a> and enjoy the native IPv6 goodness.</p>
-
-<p><img class="alignnone size-large wp-image-131" src="/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-15-11-21-1024x424.png" alt="" width="688" height="285" srcset="https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-15-11-21-1024x424.png 1024w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-15-11-21-300x124.png 300w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-15-11-21-768x318.png 768w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-15-11-21-1600x662.png 1600w, https://techielibrarians.com/wp-content/uploads/2017/06/Screenshot-from-2017-06-08-15-11-21.png 1663w" sizes="(max-width: 688px) 100vw, 688px" /></p>
+<p><!-- raw HTML omitted --></p>
+<p>Now go to http://test-ipv6.com/ and enjoy the native IPv6 goodness.</p>
+<p><!-- raw HTML omitted --></p>
 
 
         
@@ -384,7 +361,7 @@ Once the modem was switched out, I went in and turned off every feature I could 
 
           &nbsp;&bull;&nbsp;&copy;
           
-            2019
+            2020
           
 
           
@@ -394,7 +371,7 @@ Once the modem was switched out, I went in and turned off every feature I could 
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="https://gohugo.io">Hugo v0.59.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          <a href="https://gohugo.io">Hugo v0.75.0-DEV</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
           
         </p>
       </div>
