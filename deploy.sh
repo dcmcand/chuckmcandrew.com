@@ -2,6 +2,23 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+#if public exists remove it
+if [ -d "public" ]
+  then rm -rf public
+fi
+
+mkdir public
+
+cd public
+
+git init
+
+git remote add origin git@github.com:dcmcand/dcmcand.github.io.git
+
+git pull origin master
+
+cd ..
+
 # Build the project.
 hugo -t beautifulhugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
