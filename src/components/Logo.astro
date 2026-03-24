@@ -1,0 +1,41 @@
+---
+interface Props {
+  size?: 'nav' | 'full';
+  class?: string;
+}
+
+const { size = 'nav', class: className } = Astro.props;
+---
+
+{size === 'nav' && (
+  <svg
+    width="46"
+    height="28"
+    viewBox="0 0 48 28"
+    xmlns="http://www.w3.org/2000/svg"
+    class={className}
+    aria-hidden="true"
+  >
+    <rect x="0" y="1" width="46" height="26" rx="4" fill="none" stroke="#fbbf24" stroke-width="1.5" opacity="0.25" />
+    <text x="23" y="20" text-anchor="middle" font-family="'Fira Code', monospace" font-weight="700" font-size="16" fill="#fbbf24">CM</text>
+  </svg>
+)}
+
+{size === 'full' && (
+  <svg
+    width="120"
+    height="120"
+    viewBox="0 0 120 120"
+    xmlns="http://www.w3.org/2000/svg"
+    class={className}
+    aria-hidden="true"
+  >
+    <rect width="120" height="120" rx="12" fill="#0f0f1a" />
+    <rect x="12" y="12" width="96" height="96" rx="6" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.2" />
+    <text x="22" y="42" font-family="'Fira Code', monospace" font-weight="400" font-size="16" fill="#fbbf24" opacity="0.5">$</text>
+    <text x="60" y="72" text-anchor="middle" font-family="'Fira Code', monospace" font-weight="700" font-size="52" fill="#fbbf24">CM</text>
+    <rect x="85" y="54" width="3" height="24" fill="#fbbf24" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0;0.7" dur="1.2s" repeatCount="indefinite" />
+    </rect>
+  </svg>
+)}

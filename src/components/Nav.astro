@@ -1,0 +1,73 @@
+---
+import Logo from './Logo.astro';
+
+interface Props {
+  currentPath?: string;
+}
+
+const { currentPath = '' } = Astro.props;
+
+const links = [
+  { href: '/', label: 'home' },
+  { href: '/about', label: 'about' },
+  { href: '/blog', label: 'blog' },
+  { href: '/experience', label: 'experience' },
+  { href: '/contact', label: 'contact' },
+];
+
+function isActive(href: string, current: string): boolean {
+  if (href === '/') return current === '/';
+  return current.startsWith(href);
+}
+---
+
+<nav class="bg-base-200 border-b border-surface-border" aria-label="Main navigation">
+  <div class="max-w-4xl mx-auto px-6 py-3 flex justify-between items-center">
+    <a href="/" class="flex items-center gap-3 no-underline" aria-label="Home">
+      <Logo size="nav" />
+      <span class="font-mono font-bold text-primary hidden sm:inline">chuckMcAndrew</span>
+    </a>
+
+    <!-- Desktop nav -->
+    <ul class="hidden md:flex gap-6 list-none m-0 p-0">
+      {links.map(({ href, label }) => (
+        <li>
+          <a
+            href={href}
+            class:list={[
+              'font-mono text-sm no-underline transition-colors',
+              isActive(href, currentPath) ? 'text-primary' : 'text-text-secondary hover:text-primary',
+            ]}
+            aria-current={isActive(href, currentPath) ? 'page' : undefined}
+          >
+            {label}
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <!-- Mobile nav toggle -->
+    <div class="dropdown dropdown-end md:hidden">
+      <label tabindex="0" class="btn btn-ghost text-primary" aria-label="Open menu">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </label>
+      <ul tabindex="0" class="dropdown-content menu bg-base-200 border border-surface-border rounded-box w-52 p-2 shadow-lg z-50">
+        {links.map(({ href, label }) => (
+          <li>
+            <a
+              href={href}
+              class:list={[
+                'font-mono text-sm',
+                isActive(href, currentPath) ? 'text-primary' : 'text-text-secondary',
+              ]}
+            >
+              {label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</nav>
