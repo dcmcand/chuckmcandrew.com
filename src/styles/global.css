@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "retro-terminal";
+  default: true;
+  --color-base-100: oklch(from #0f0f1a l c h);
+  --color-base-200: oklch(from #1c1c30 l c h);
+  --color-base-300: oklch(from #252542 l c h);
+  --color-base-content: oklch(from #f0f0f5 l c h);
+  --color-primary: oklch(from #fbbf24 l c h);
+  --color-primary-content: oklch(from #0f0f1a l c h);
+  --color-secondary: oklch(from #b8b8cc l c h);
+  --color-secondary-content: oklch(from #0f0f1a l c h);
+  --color-accent: oklch(from #fbbf24 l c h);
+  --color-accent-content: oklch(from #0f0f1a l c h);
+  --color-neutral: oklch(from #1c1c30 l c h);
+  --color-neutral-content: oklch(from #f0f0f5 l c h);
+  --border-radius-box: 0.5rem;
+  --border-radius-btn: 0.25rem;
+  --border-radius-badge: 0.25rem;
+}
+
+/* Custom CSS variables for values not covered by DaisyUI */
+@theme {
+  --color-surface-border: rgba(255, 255, 255, 0.06);
+  --color-accent-dim: rgba(251, 191, 36, 0.12);
+  --color-text-secondary: #b8b8cc;
+  --color-divider: rgba(251, 191, 36, 0.25);
+
+  --font-mono: 'Fira Code', monospace;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+/* Base styles */
+body {
+  font-family: var(--font-sans);
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus visible styles */
+:focus-visible {
+  outline: 2px solid #fbbf24;
+  outline-offset: 2px;
+}
