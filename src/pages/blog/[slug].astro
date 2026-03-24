@@ -1,0 +1,33 @@
+---
+import { getCollection, render } from 'astro:content';
+import Post from '../../layouts/Post.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => data.draft !== true);
+  const sortedPosts = posts.sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf());
+
+  return sortedPosts.map((post, index) => ({
+    params: { slug: post.id },
+    props: {
+      post,
+      prevPost: index > 0 ? { title: sortedPosts[index - 1].data.title, slug: sortedPosts[index - 1].id } : null,
+      nextPost: index < sortedPosts.length - 1 ? { title: sortedPosts[index + 1].data.title, slug: sortedPosts[index + 1].id } : null,
+    },
+  }));
+}
+
+const { post, prevPost, nextPost } = Astro.props;
+const { Content } = await render(post);
+---
+
+<Post
+  title={post.data.title}
+  date={post.data.date}
+  description={post.data.description}
+  tags={post.data.tags}
+  slug={post.id}
+  prevPost={prevPost}
+  nextPost={nextPost}
+>
+  <Content />
+</Post>

@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import BlogCard from '../../components/BlogCard.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', ({ data }) => data.draft !== true);
+const sortedPosts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const allTags = [...new Set(sortedPosts.flatMap((post) => post.data.tags))].sort();
+
+function getReadTime(body: string | undefined): number {
+  if (!body) return 1;
+  const words = body.trim().split(/\s+/).length;
+  return Math.max(1, Math.ceil(words / 200));
+}
+---
+
+<Base title="Blog - Chuck McAndrew" description="Blog posts about infrastructure, open source, and more.">
+  <div class="max-w-4xl mx-auto px-6 py-12">
+    <h1 class="font-mono text-base text-primary mb-2">~/blog</h1>
+    <p class="text-text-secondary text-sm mb-8">Writing about infrastructure, open source, and the occasional career reflection.</p>
+
+    <!-- Tags (display only in v1) -->
+    {allTags.length > 0 && (
+      <div class="mb-8 flex flex-wrap gap-2" aria-label="Post tags">
+        {allTags.map((tag) => (
+          <span class="font-mono text-xs px-2 py-1 rounded text-primary bg-accent-dim">
+            {tag}
+          </span>
+        ))}
+      </div>
+    )}
+
+    <!-- Posts -->
+    <div class="flex flex-col gap-3">
+      {sortedPosts.map((post) => (
+        <BlogCard
+          title={post.data.title}
+          date={post.data.date}
+          description={post.data.description}
+          tags={post.data.tags}
+          slug={post.id}
+          readTime={getReadTime(post.body)}
+        />
+      ))}
+    </div>
+
+    {sortedPosts.length === 0 && (
+      <p class="text-text-secondary font-mono text-sm">No posts yet. Check back soon.</p>
+    )}
+  </div>
+</Base>

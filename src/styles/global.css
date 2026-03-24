@@ -51,3 +51,100 @@ body {
   outline: 2px solid #fbbf24;
   outline-offset: 2px;
 }
+
+/* Blog post prose styling */
+.prose-custom {
+  font-size: 1rem;
+  line-height: 1.8;
+  max-width: none;
+}
+
+.prose-custom p {
+  margin-bottom: 1.25rem;
+}
+
+.prose-custom h2 {
+  font-family: var(--font-mono);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fbbf24;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(251, 191, 36, 0.15);
+}
+
+.prose-custom h3 {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose-custom a {
+  color: #fbbf24;
+  text-decoration: underline;
+  text-decoration-color: rgba(251, 191, 36, 0.3);
+  text-underline-offset: 2px;
+}
+
+.prose-custom a:hover {
+  text-decoration-color: #fbbf24;
+}
+
+.prose-custom ul, .prose-custom ol {
+  margin: 0 0 1.25rem 1.5rem;
+}
+
+.prose-custom li {
+  margin-bottom: 0.375rem;
+}
+
+.prose-custom blockquote {
+  border-left: 3px solid #fbbf24;
+  margin: 1.5rem 0;
+  padding: 0.75rem 1.25rem;
+  background: #1c1c30;
+  border-radius: 0 0.375rem 0.375rem 0;
+}
+
+.prose-custom blockquote p {
+  color: #b8b8cc;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.prose-custom code:not(pre code) {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  background: #1c1c30;
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.1875rem;
+  color: #fbbf24;
+}
+
+.prose-custom pre {
+  background: #1c1c30;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 0.375rem;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
+.prose-custom pre code {
+  background: none;
+  padding: 0;
+  font-size: 0.8125rem;
+  line-height: 1.7;
+  color: #f0f0f5;
+}
+
+.prose-custom strong {
+  font-weight: 600;
+}
+
+.prose-custom img {
+  border-radius: 0.375rem;
+  margin: 1.5rem 0;
+}

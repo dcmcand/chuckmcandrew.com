@@ -1,0 +1,81 @@
+---
+import Base from './Base.astro';
+import TagList from '../components/TagList.astro';
+
+interface Props {
+  title: string;
+  date: Date;
+  description: string;
+  tags: string[];
+  slug: string;
+  prevPost?: { title: string; slug: string } | null;
+  nextPost?: { title: string; slug: string } | null;
+}
+
+const { title, date, description, tags, slug, prevPost, nextPost } = Astro.props;
+
+const formattedDate = date.toISOString().split('T')[0];
+---
+
+<Base title={`${title} - Chuck McAndrew`} description={description}>
+  <article class="max-w-[680px] mx-auto px-6 pt-12 pb-16">
+    <!-- Breadcrumb -->
+    <nav class="font-mono text-xs text-text-secondary mb-5" aria-label="Breadcrumb">
+      <a href="/blog" class="text-primary no-underline hover:underline">~/blog</a>
+      <span> / </span>
+      <span>{slug}</span>
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <h1 class="text-3xl font-bold leading-tight mb-4">{title}</h1>
+      <div class="font-mono text-sm text-text-secondary mb-3 flex gap-4">
+        <time datetime={date.toISOString()}>{formattedDate}</time>
+      </div>
+      <div class="mb-8">
+        <TagList tags={tags} linkable />
+      </div>
+    </header>
+
+    <!-- Body -->
+    <div class="prose-custom">
+      <slot />
+    </div>
+
+    <!-- Footer -->
+    <div class="mt-12 font-mono text-xs text-divider overflow-hidden whitespace-nowrap" aria-hidden="true">
+      ════════════════════════════════════════════════════════════════════════════════════════
+    </div>
+
+    <!-- Author bio -->
+    <div class="mt-8 flex gap-5 items-start bg-base-200 border border-surface-border rounded-lg p-5">
+      <div class="w-14 h-14 bg-accent-dim rounded-full flex items-center justify-center flex-shrink-0" aria-hidden="true">
+        <span class="font-mono font-bold text-primary">CM</span>
+      </div>
+      <div>
+        <div class="font-sans font-semibold text-base-content mb-1">Chuck McAndrew</div>
+        <p class="text-sm text-text-secondary leading-relaxed">
+          Director of Infrastructure Engineering at OpenTeams. I write about infrastructure, open source, and the occasional career reflection. Based in Granada, Spain.
+        </p>
+      </div>
+    </div>
+
+    <!-- Prev/Next -->
+    {(prevPost || nextPost) && (
+      <div class="mt-8 flex gap-4">
+        {prevPost ? (
+          <a href={`/blog/${prevPost.slug}/`} class="flex-1 bg-base-200 border border-surface-border rounded-md p-4 no-underline hover:border-primary/30 transition-colors">
+            <div class="font-mono text-xs text-text-secondary mb-1">&larr; previous</div>
+            <div class="text-sm font-semibold text-base-content">{prevPost.title}</div>
+          </a>
+        ) : <div class="flex-1" />}
+        {nextPost ? (
+          <a href={`/blog/${nextPost.slug}/`} class="flex-1 bg-base-200 border border-surface-border rounded-md p-4 no-underline hover:border-primary/30 transition-colors text-right">
+            <div class="font-mono text-xs text-text-secondary mb-1">next &rarr;</div>
+            <div class="text-sm font-semibold text-base-content">{nextPost.title}</div>
+          </a>
+        ) : <div class="flex-1" />}
+      </div>
+    )}
+  </article>
+</Base>
