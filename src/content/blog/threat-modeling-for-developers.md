@@ -24,6 +24,8 @@ Back in 2015, I put together a security training course about personal online se
 
 Plot those on two axes and you get four quadrants. High impact and easy to exploit? That's your top priority. Low impact and hard to exploit? Probably not worth losing sleep over. The two middle quadrants, high impact but hard to exploit and low impact but easy to exploit, are where judgment calls live.
 
+![Risk assessment matrix showing four quadrants: High Impact + Easy to Exploit is High Priority, High Impact + Hard to Exploit is Medium Priority, Low Impact + Easy to Exploit is Medium Priority, and Low Impact + Hard to Exploit is Low Priority.](/images/threat-model.png)
+
 That training was about personal security. Should you enable two-factor authentication on your email? (Yes, high impact and easy to exploit without it.) Should you worry about a nation-state targeting your personal photos? (Probably not, unless you have a very unusual life.) But the framework applies just as well to software architecture decisions. The threats are different, the stakes might be higher, but the thinking process is the same.
 
 This isn't a novel idea. Security engineers have been saying this for decades. [Saltzer and Schroeder's 1975 paper on information protection](https://ieeexplore.ieee.org/document/1451869) defined "economy of mechanism" as a foundational security design principle: keep the design as simple and small as possible. Bruce Schneier put it more bluntly in [_Secrets and Lies_](https://www.schneier.com/books/secrets-and-lies/): "Complexity is the worst enemy of security." The risk matrix is just a practical tool for applying that kind of thinking to specific decisions.
