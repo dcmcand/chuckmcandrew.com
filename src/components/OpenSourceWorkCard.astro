@@ -1,0 +1,60 @@
+---
+interface Props {
+  name: string;
+  shortDescription: string;
+  github?: string;
+  site?: string;
+  tech: string[];
+  status: string;
+  role: string;
+  slug: string;
+}
+
+const { name, shortDescription, github, site, tech, status, role, slug } = Astro.props;
+
+const statusClass = {
+  production: 'badge-success',
+  active: 'badge-info',
+  deprecated: 'badge-ghost',
+}[status] ?? 'badge-ghost';
+---
+
+<a href={`/open-source-work/${slug}/`} class="block no-underline group mb-4">
+  <article class="bg-base-200 border border-surface-border rounded-lg p-5 transition-colors group-hover:border-primary/30">
+    <div class="flex items-start justify-between gap-4 mb-1">
+      <h2 class="font-sans text-base font-semibold text-base-content group-hover:text-primary transition-colors">{name}</h2>
+      <span class={`badge badge-sm shrink-0 ${statusClass}`}>{status}</span>
+    </div>
+    <p class="font-mono text-xs text-text-secondary mb-2">{role}</p>
+    <p class="text-sm text-text-secondary leading-relaxed mb-3">{shortDescription}</p>
+    <div class="flex flex-wrap gap-2 mb-3">
+      {tech.map((t) => (
+        <span class="font-mono text-xs px-2 py-1 rounded text-primary bg-accent-dim">{t}</span>
+      ))}
+    </div>
+    <div class="flex gap-4">
+      {github && (
+        <a
+          href={github}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-sm text-primary hover:underline"
+          onclick="event.stopPropagation()"
+        >
+          GitHub
+        </a>
+      )}
+      {site && (
+        <a
+          href={site}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-sm text-primary hover:underline"
+          onclick="event.stopPropagation()"
+        >
+          Site
+        </a>
+      )}
+    </div>
+  </article>
+</a>

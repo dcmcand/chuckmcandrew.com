@@ -25,4 +25,18 @@ const experience = defineCollection({
   }),
 });
 
-export const collections = { blog, experience };
+const openSourceWork = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/open-source-work' }),
+  schema: z.object({
+    name: z.string(),
+    shortDescription: z.string(),
+    github: z.string().url().optional(),
+    site: z.string().url().optional(),
+    tech: z.array(z.string()),
+    status: z.enum(['production', 'active', 'deprecated']),
+    role: z.string(),
+    order: z.number(),
+  }),
+});
+
+export const collections = { blog, experience, openSourceWork };

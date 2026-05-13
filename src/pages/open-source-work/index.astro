@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import OpenSourceWorkCard from '../../components/OpenSourceWorkCard.astro';
+
+const projects = (await getCollection('openSourceWork')).sort(
+  (a, b) => a.data.order - b.data.order,
+);
+---
+
+<Base
+  title="Open Source Work - Chuck McAndrew"
+  description="Open source work in platform engineering, supply chain security, and developer tooling."
+>
+  <main id="main-content" class="max-w-4xl mx-auto px-6 py-12">
+    <h1 class="font-mono text-base text-primary mb-2">~/open-source-work</h1>
+    <p class="text-text-secondary text-sm mb-8">
+      Open source work in platform engineering, supply chain security, and developer tooling.
+    </p>
+
+    {projects.map((project) => (
+      <OpenSourceWorkCard
+        name={project.data.name}
+        shortDescription={project.data.shortDescription}
+        github={project.data.github}
+        site={project.data.site}
+        tech={project.data.tech}
+        status={project.data.status}
+        role={project.data.role}
+        slug={project.id}
+      />
+    ))}
+  </main>
+</Base>
