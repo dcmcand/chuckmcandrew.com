@@ -1,0 +1,47 @@
+---
+title: "Platform Engineering for Human Beings"
+date: 2026-06-29
+description: "The job of a technical leader isn't to make every decision. It's to build the systems that let good engineering happen without them in the room."
+tags:
+  [
+    "leadership",
+    "platform-engineering",
+    "engineering-management",
+    "software-engineering",
+  ]
+draft: false
+---
+
+Have you ever watched a team grind to a halt the moment one person went on vacation?
+
+I have. At a previous employer, that person was our CTO. When he took PTO, engineering more or less stopped. Decisions that should have taken an hour waited a week for him to come back. Reviews piled up. Questions nobody else felt empowered to answer sat in a channel until he returned and worked through them one at a time. And the backlog lasted longer than his PTO because he was flooded when he got back, so there was a long tail of slowdowns.
+
+I don't want this to sound like he was a bad boss. He wasn't. He was not a micromanager or a power freak. He was honestly one of the better bosses I have worked for: smart, straightforward, and good at the actual decisions. None of that was the problem. The problem was that he had become a single point of failure because we had never built the systems that would let the place run without him. When he left for a week, the context and the authority left with him, because they had never lived anywhere but in his head.
+
+If you have ever been the person in that seat, you know the other side of it. You cannot really take time off. The laptop goes in the beach bag. The phone stays on, and it buzzes, and you answer it, because you have quietly made yourself the thing the whole operation runs through. It can feel like being important. It is a lot closer to being trapped. As a side note, never unplugging is terrible for your mental health and long-term job performance. You are not helping your organization in the long-term by burning yourself out or by allowing your most talented people to burn themselves out.
+
+This rarely comes from ego, and it rarely comes from laziness. Most people end up here because the alternative takes deliberate work that nobody is forcing them to do and they might not even know how to do. Building the systems that let a team run without you is a real project, and it competes for time against everything that is actively on fire. In the moment, making the call yourself is faster than building the thing that would let someone else make it, and every individual instance of that is defensible. The cost only shows up in aggregate, slowly, as a team that has quietly organized itself around your availability. You do not decide to become a single point of failure. You become one by never deciding not to. It is quicker and less frustrating to tie my five-year-old's shoes for her. But if I always do it myself, I keep both of us dependent on me. Taking the slower path now creates more freedom later. We need to be focusing on building the durable systems that lead to where we want to go if we want to do our best work.
+
+That situation has a name in the world of infrastructure. We call it a single point of failure, and when we find one in a system we are running, we treat it as a defect to be fixed. We do not congratulate the one server handling all the traffic on how essential it is. We add redundancy, we spread the load, and we make sure any single component can fall over without taking everything down with it. We build (and test!) systems for graceful degradation rather than catastrophic failure.
+
+Platform engineering is one of the ways we do that for software teams. The promise is simple. A developer should be able to ship to production without filing a ticket with a central team, without learning the entire deployment toolchain, and without depending on the one person who remembers the right order to do things in. The platform team builds a paved road: sensible defaults, guardrails that keep you out of trouble, automation for the dangerous parts, and self-service for the common ones. The whole idea is to make the safe, correct way to do something also the easy way, so that doing the right thing does not require heroics or tribal knowledge.
+
+I have seen the same failure at the scale of a whole team, not just a person. A platform group that is the only one who knows how to ship the product becomes a single point of failure too, just a team-sized one. Every release waits on them, the load never lets up, and good people burn out holding it together. A single point of failure does not have to be one human being. It just has to be a place where the system cannot proceed without something specific that you never made redundant.
+
+This is most of what technical leadership is, applied to people instead of servers. Technical leadership is platform engineering for human beings.
+
+The leader's job is not to personally make every good decision. It is to build a system in which good decisions get made, by the right people, with the right context, at the right time. These decisions should get made whether or not the leader is in the room. That means building the human version of paved roads. Clear ownership, so people know what is theirs to decide. Enough shared context that they can decide it well. Decision norms, so work does not stall waiting on a meeting. Onboarding that makes a new engineer productive without a senior person hovering over them. Incident practices that do not depend on one hero who holds the whole map in their head.
+
+A lot of this work is unglamorous and concrete. It looks like writing down the three things everyone always asks you, so they stop having to ask. It looks like an on-call rotation that does not quietly route every real problem to the same person. It looks like saying out loud who owns an area, what they are trusted to decide without checking first, and where the escalation path is when they need help. Ownership without support is abandonment. Support without ownership is dependency. The leader's job is to build both.
+
+Put this way, leadership is a design discipline. The material is the set of conditions people work inside: what they know, what they are allowed to decide, what is easy and what is hard, what gets rewarded and what gets quietly punished. Those conditions form an architecture whether you designed them on purpose or let them accrete by accident. Culture is not a poster on the wall or the mood in standup. It is the accumulated residue of what your systems make easy and what they make hard. If the fastest way to ship is to go around code review, you will get a culture that goes around code review, no matter what the values page says.
+
+In platform and reliability circles you will constantly hear the principle "make the right thing the easy thing". I did not coin it and I am not sure who did, but it is the most useful single sentence I know for this work. People mostly do the easy thing. So if you want them to do the right thing, the job is to make the right thing and the easy thing the same thing. That holds for a deployment pipeline, and it holds just as well for how decisions get made, how knowledge gets written down, and how problems get raised before they turn into incidents.
+
+The CTO I started with was running the human version of all his traffic through one box. Every decision routed through him because nobody else had been handed the context or the authority to make it. That is not a knock on him. It is a description of a system with one component doing far too much. The fix was never going to be for him to work harder or answer his phone faster from the beach. The fix was to build the structures he had never gotten around to building: push context outward, give people real ownership, and get the things that lived only in his head written down where others could use them.
+
+Just like having my daughter tie her shoelaces, this often means giving people permission to do things differently than you would. Sometimes it means letting them do things worse than you would. This is where guardrails and automation come in. It is also how people progress in their craft, by making mistakes and learning from them. It isn't always the most efficient in the short term, but it can introduce productive friction that strengthens the organization in the long term.
+
+This is also the only version of the job that scales. You can personally make every call on a team of five. You cannot on a team of fifty, and if you try, you just become the same bottleneck with a longer queue behind it. Building the system is the job itself. Things do not calm down enough to let you get to it later, because they do not calm down until you do it.
+
+So here is the test I think about now. If you left for two weeks, genuinely unreachable, laptop at home and phone off, would your team be fine? I don't mean everything functions exactly the same way as if you are there. Remove capacity from a system and we expect degraded performance, but remember graceful degradation rather than catastrophic failure is the goal. So the question is, if you aren't around, would good decisions still get made, would problems still get handled, would the right people feel free to act without you? If the answer is yes, you are doing the actual job. You have built something that holds without you standing in the middle of it. The best leaders I have worked with were never the ones their teams could not function without. They were the ones who made sure their teams could.
