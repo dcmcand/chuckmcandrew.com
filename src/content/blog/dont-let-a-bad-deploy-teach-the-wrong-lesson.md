@@ -1,10 +1,10 @@
 ---
 title: "Don't Let a Bad Deploy Teach the Wrong Lesson"
-date: 2026-06-29
+date: 2026-07-16
 description: "An incident always teaches you something. The trick is not learning the wrong lesson. A story about a failed self-service deploy and what it actually proved."
 tags:
   ["leadership", "platform-engineering", "incidents", "software-engineering"]
-draft: true
+draft: false
 ---
 
 Every incident teaches lessons. People want to know why it happened and how to prevent it from happening in the future. This often results in a "lessons learned" session to try to capture these learnings. However, not all lessons are good ones. Incidents can teach the wrong lessons and reinforce bad practices if care isn't taken with these lessons. Ensuring that the right lessons are learned and that they reinforce, rather than contradict, good engineering values is one of the more important parts of technical leadership.
