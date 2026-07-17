@@ -1,0 +1,47 @@
+---
+title: "Culture Is How Teams Become Excellent"
+date: 2026-07-18
+description: "Excellent engineers come from excellent teams, not the other way around. A story about building one on purpose, and watching it outlast the people who built it."
+tags: ["leadership", "culture", "teams", "software-engineering"]
+draft: false
+---
+
+I was in a meeting with my team, back when I was their tech lead. The most junior engineer on it stopped me mid-sentence. I had been talking through an approach to a problem, down in the weeds of it, and I had missed something obvious. She saw it, said so, and offered the better solution. She was right. We used her approach and the product got better.
+
+What I remember is not that she was right. It is what she did not do first. She did not weigh whether it was her place to correct the tech lead. She did not wonder whether she would be heard. She did not sit on the idea to see if someone more senior would land on it too. She saw the gap and closed it.
+
+That moment was the point of the previous several months. And it did not happen by accident.
+
+The team was at a previous employer working on a US federal government contract. Four engineers, me as tech lead, and a product manager. Our job was to build a tool that could report on the agency's digital holdings, which run to petabytes. The system they had took about an hour to generate a report and was wired tightly into everything around it. Run a report that was too large and you could drag the whole system to a crawl. We were going to pull the reporting tool out of that tangle using the [strangler fig pattern](https://martinfowler.com/bliki/StranglerFigApplication.html), do it without disrupting operations, and make the result, in the words we kept using, unsettlingly fast.
+
+That was a real technical challenge. It was not the hard part. The hard part, the part I decided to treat as the actual project, was the team.
+
+I had just read Charity Majors making a claim that reorganized how I thought about staffing. [Great engineers are made by great engineering teams](https://leaddev.com/culture/great-engineers-are-made-great-engineering-teams), she argues, not the other way around. The instinct is to treat a team as only as good as the people you put on it: hire strong engineers and you get a strong team. Her inversion is that the causation mostly runs the other way. The team is the environment, and the environment is what makes engineers good or keeps them stuck.
+
+I had a couple of genuinely excellent engineers, a couple of solid ones, and one who was fairly junior. If Majors was right, the spread on that roster mattered less than what we built around it. Culture was not going to sit on top of the engineering as a decoration; it was going to be the ground the work grew out of. So I decided to build it deliberately, and I brought some scaffolding: Team Topologies, by Matthew Skelton and Manuel Pais, for thinking about the team as a system, and Patrick Lencioni's The Five Dysfunctions of a Team, for how teams fail each other.
+
+We started talking about culture on day one, and we did not stop. We ran regular retrospectives, and in them the rule was systems thinking rather than individual blame. When something went wrong, we did not go looking for the person who caused it. We looked for the conditions that made the failure possible and asked how to change them. More than once someone tried to take the blame for something, to say it was on them, and we stopped them and turned the question back to the system. People who sat in on our meetings were consistently surprised by two things: how much time we spent talking about how we worked, and how openly critical we were of ourselves without anyone getting wounded by it.
+
+Some of that is what people call psychological safety, and safety is easy to caricature as softness. It is not softness. It is the precondition for finding problems early. An engineer who is afraid of looking foolish will sit on a doubt until it becomes an incident. We made it explicit that everyone had a voice, and then we did the unglamorous work of drawing out the people who naturally said less, asking them directly what they thought. A voice you have to be invited to use is not really a voice yet.
+
+We talked constantly about ownership, and we were specific about it. When someone said they would do something and it did not happen, we named it. Not to shame anyone, but because an unmet commitment is information. We would look at why it slipped and what in the way we worked had let it slip. We were also relentless about what done meant. Done was not handing work to someone else and calling it finished. Done was the thing working properly in production. We were not tossing anything over a wall.
+
+And we held a high bar, starting with unsettlingly fast and running through everything under it. We asked for contrasting opinions on purpose, and when someone had a better approach than mine, we took it and I said so. Focused disagreement turned out to be one of the most productive things the team did. Conflict that stays on the problem, and off the person, is how you get real buy-in instead of the quiet, resentful compliance you get when people go along with a decision they were never allowed to argue with.
+
+The last piece, and maybe the one that held the rest together, was that we said out loud why we were doing any of this. We were spending this much energy on how we worked because we wanted to be excellent engineers, and the way you become one is to be on an excellent team. Everyone was bought into that. It was culture as the means to the thing we actually wanted, not culture for its own sake.
+
+Those three commitments hold each other up, and they fail without each other. Psychological safety without high standards becomes a comfort culture, pleasant and slow. High standards without safety becomes a fear culture, where people hit the numbers and hide the problems. Ownership without the authority to actually decide becomes resentment. You need all of them, and you need them at the same time.
+
+None of this arrived clean. Writing it out makes it sound more deliberate and more finished than it felt while we were living it. We had to learn to trust each other, which takes longer than deciding to. We had to learn how to disagree in a way that did not feel like an attack, and how to hear a disagreement without treating it as one. The hardest lesson was the one underneath all the accountability work: being called out for missing something you owned is not someone telling you that you are bad at your job. It is the team telling you the system failed, and that you are part of fixing it. That is a hard thing to feel in the moment, even when you believe it in principle.
+
+We missed deadlines when problems that looked simple turned out to have landmines buried in them. We mis-estimated how much we could finish in an iteration, more than once. We tried practices that sounded good and did not work for us and dropped them; slack-ups were one. What made the team work was the discipline of treating the team the way we treated the software: something you improve in small iterations, continuously, and never quite call finished.
+
+Which is why the junior engineer correcting me was such a good day. It was the culture doing exactly what we had built it to do. Somewhere else, that same engineer might have kept the idea to herself, or offered it so tentatively that it got lost. On our team she saw a better answer and said it, and the product was better for it. Do that across the whole team, every day, for months, and you get work that none of them would have produced alone.
+
+We did also ship the thing. The report that took an hour ran in ninety seconds or less, pulled cleanly out of the systems it used to endanger, and produced output identical to the tool it replaced. Our unofficial motto was "do the thing," and we had the stickers to prove it. But the fast report was the output. The team was what produced it, and if I had to rebuild one of them first, it would be the team every time.
+
+The real test came later, and I did not plan it. One person left and a new engineer joined. It was not the same team after that; it never is. We adapted to a different personality and a different set of strengths, and some things worked differently than they had. But the culture held. The new engineer told me it was a little shocking at first, the open self-criticism and the insistence that everyone actually speak, and later told me that it had made them a better engineer too. The culture did not depend on any particular roster, and it did not depend on me. After I left and someone else took over, the team went on being an excellent team without me in it.
+
+That durability is the part I am proudest of. A team whose excellence lives in one person is not a strong team; it is a cult of personality. The culture we built kept making engineers better after the people who started it, myself included, had gone. That is the difference between building a system and getting lucky with a roster.
+
+We have all moved on to different companies. I still keep in touch with my former teammates. Every one of them has told me, in one way or another, that it raised their game as an engineer. I am not surprised, because it raised mine. If you want excellent engineers, the strongest lever you have is rarely the next hire. It is the team you put people into once they arrive.
